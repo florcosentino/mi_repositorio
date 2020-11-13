@@ -1,0 +1,924 @@
+/*Variables*/
+
+$color-aqua: #89beb3;
+$color-lila: #835858;
+$color-violeta: #625261;
+$color-blanco: white;
+
+/* estilos generales */
+
+.header {
+    color: $color-blanco;
+    background-color: $color-aqua;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    #header__envios {
+        text-align: left;
+        display: inline;
+        margin-left: 100px;
+        word-spacing: 30px;
+        font-size: 20px;
+    }
+    
+    #header__logo {
+        text-align: center;
+        display: inline;
+        margin-left: 200px;
+
+        #logo {
+            width: 50px;
+            height: 50px;
+            margin-top: 5px;
+        }
+    }
+    
+    #header__cuotas {
+        text-align: right;
+        display: inline;
+        margin-left: 200px;
+        word-spacing: 30px;
+        font-size: 20px;
+    }
+}
+
+.header2 {
+    color: $color-blanco;
+    background-color: $color-violeta;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    #header__envios {
+        text-align: left;
+        display: inline;
+        margin-left: 100px;
+        word-spacing: 30px;
+        font-size: 20px;
+    }
+    
+    #header__logo {
+        text-align: center;
+        display: inline;
+        margin-left: 200px;
+
+        #logo {
+            width: 50px;
+            height: 50px;
+            margin-top: 5px;
+        }
+    }
+    
+    #header__cuotas {
+        text-align: right;
+        display: inline;
+        margin-left: 200px;
+        word-spacing: 30px;
+        font-size: 20px;
+    }
+}
+
+.menu {
+    text-align: center;
+
+    .secciones {
+        text-decoration-line: none;
+        word-spacing: 50px;
+        font-family:'Montserrat', sans-serif;
+        font-weight: bold;
+        color: $color-aqua;
+        &:hover {
+            color: $color-lila;
+        }
+    }
+    
+    .categorias {
+        display:inline; 
+        padding-left:3px; 
+        padding-right:3px;
+    }
+}
+
+#carrito {
+    text-align: right;
+    margin-right: 150px;
+
+    .fotoCarrito {
+        width: 50px;
+        height: 50px;
+        transform: translate(40px, -20px);
+    }
+}
+
+#botonCarrito {
+    transform: translate(1180px, -8px);
+    color: $color-aqua;
+    border-color: $color-aqua;
+}
+
+#barra {
+    margin-left: 100px;
+    transform: translate(-70px, -90px);
+}
+
+#botonBarra {
+    transform: translate(-70px, -90px);
+    color: $color-aqua;
+    border-color: $color-aqua;
+}
+
+.titulos {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: $color-aqua;
+    font-size: 50px;
+    margin-bottom: 140px;
+ }
+
+ #titulos2 {
+    color: $color-violeta;
+    margin-bottom: 140px;
+}
+
+hr{
+    border: 0.5px solid;
+    color: $color-lila;
+    margin-top: 100px;
+}
+
+footer {
+
+    .telefono {
+        text-align: left;
+        color: $color-violeta;
+        margin-left: 60px;
+        font-weight: bold;
+        text-decoration: underline;
+        display: inline-block;
+    }
+
+    .redes {
+        text-align: right;
+        color: $color-violeta;
+        margin-left: 800px;
+        font-weight: bold;
+        text-decoration: underline;
+        display: inline-block;
+    }
+
+    .infoFooter1 {
+        margin-left: 60px;
+    }
+
+    .infoFooter2 {
+        margin-left: 60px;
+        display: inline;
+    }
+
+    .fotosFooter {
+        text-align: right;
+        margin-left: 750px;
+        display: inline;
+
+        .fotosRedes {
+            display: inline;
+
+            #facebook {
+                width: 50px;
+                height: 50px;
+                margin-left: 20px;
+            }
+            
+            #instagram {
+                width: 50px;
+                height: 50px;
+            }
+            
+            #twitter {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+
+/* pagina principal */
+
+#titulo {
+    color: $color-lila;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-bottom: 130px;
+}
+
+.cuerpos {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: $color-violeta;
+}
+
+
+/* Conjuntos */
+
+.conjuntos1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    .fotosConjuntos {
+        width: 300px;
+        height: 500px;
+    }
+
+    .orquidea {
+        text-align: center;
+
+        .nombres1 {
+            font-size: 20px;
+            margin-right: 30px;
+        }
+
+        .precios1 {
+            font-size: 18px; 
+        }
+
+        #boton1 {
+            background-color: $color-aqua;
+            border-color: $color-aqua;
+        }
+         
+    }    
+    
+    .amapola {
+        text-align: center;
+
+        .nombres1 {
+            font-size: 20px;
+            margin-right: 30px;
+        }
+
+        .precios1 {
+            font-size: 18px; 
+        }
+
+        #boton2 {
+            background-color: $color-aqua;
+            border-color: $color-aqua;
+        }
+    }
+
+    .jazmin {
+        text-align: center;
+
+        .nombres1 {
+            font-size: 20px;
+            margin-right: 30px;
+        }
+
+        .precios1 {
+            font-size: 18px; 
+        }
+
+        #boton3 {
+            background-color: $color-aqua;
+            border-color: $color-aqua;
+        }
+    }
+
+    .dalia {
+        text-align: center;
+
+        .nombres1 {
+            font-size: 20px;
+            margin-right: 30px;
+        }
+
+        .precios1 {
+            font-size: 18px; 
+        }
+
+        #boton4 {
+            background-color: $color-aqua;
+            border-color: $color-aqua;
+        }
+    }
+}
+
+.conjuntos2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    .fotosConjuntos {
+        width: 300px;
+        height: 500px;
+    }
+
+    .hortensia {
+        text-align: center;
+
+        .nombres1 {
+            font-size: 20px;
+            margin-right: 30px;
+        }
+
+        .precios1 {
+            font-size: 18px; 
+        }
+
+        #boton5 {
+            background-color: $color-aqua;
+            border-color: $color-aqua;
+        }
+    }
+
+    .iris {
+        text-align: center;
+
+        .nombres1 {
+            font-size: 20px;
+            margin-right: 30px;
+        }
+
+        .precios1 {
+            font-size: 18px; 
+        }
+
+        #boton6 {
+            background-color: $color-aqua;
+            border-color: $color-aqua;
+        }
+    }
+
+    .girasol {
+        text-align: center;
+
+        .nombres1 {
+            font-size: 20px;
+            margin-right: 30px;
+        }
+
+        .precios1 {
+            font-size: 18px; 
+        }
+
+        #boton7 {
+            background-color: $color-aqua;
+            border-color: $color-aqua;
+        }
+    }
+
+    .narciso {
+        text-align: center;
+
+        .nombres1 {
+            font-size: 20px;
+            margin-right: 30px;
+        }
+
+        .precios1 {
+            font-size: 18px; 
+        }
+
+        #boton8 {
+            background-color: $color-aqua;
+            border-color: $color-aqua;
+        }
+    }
+
+}
+
+.talles {
+    text-align: center;
+
+    #duda {
+        color: $color-lila;
+        margin-top: 160px;
+    }
+
+    #tablaTalles {
+        color: $color-lila;
+        font-family:'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: bolder
+    }
+
+    .table-responsive {
+        display: flex;
+        justify-content: center;
+
+        .table-bordered {
+            padding: 10px;
+            width: 45%;
+        
+            .textoTabla {
+                text-align: center;
+                height: 30px;
+            }
+        }
+    }
+
+}
+
+
+/* Pijamas */
+
+.pijamas1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+    .fotosPijamas {
+        width: 400px;
+        height: 600px;
+    }
+
+    .belladona {
+        text-align: center;
+
+        .nombres2 {
+            font-size: 20px;
+            
+        }
+    
+        .precios2 {
+            font-size: 18px;
+        }
+    
+        #boton9 {
+            background-color: $color-lila;
+            border-color: $color-lila;
+        }
+
+    }
+
+    .fresia {
+        text-align: center;
+
+        .nombres2 {
+            font-size: 20px;
+            
+        }
+    
+        .precios2 {
+            font-size: 18px;
+        }
+    
+        #boton10 {
+            background-color: $color-lila;
+            border-color: $color-lila;
+        }
+    }
+
+
+}
+
+.pijamas2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    .fotosPijamas {
+        width: 400px;
+        height: 600px;
+    }
+
+    .peonia {
+        text-align: center;
+
+        .nombres2 {
+            font-size: 20px;
+            
+        }
+    
+        .precios2 {
+            font-size: 18px;
+        }
+    
+        #boton11 {
+            background-color: $color-lila;
+            border-color: $color-lila;
+        }
+    }
+
+    .jacinto {
+        text-align: center;
+
+        .nombres2 {
+            font-size: 20px;
+            
+        }
+    
+        .precios2 {
+            font-size: 18px;
+        }
+    
+        #boton12 {
+            background-color: $color-lila;
+            border-color: $color-lila;
+        }
+    }
+
+}
+
+
+/* Sale */
+
+
+@keyframes animacion_borde {
+    0%   {border-color: $color-violeta;}
+    25%  {border-color: $color-blanco;}
+    50%  {border-color: $color-violeta;}
+    100% {border-color: $color-blanco;}
+}
+
+.cajaBombis {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+    .fotosBombis {
+        width: 400px;
+        height: 600px;
+        border: dotted 5px $color-violeta;
+        animation-name: animacion_borde;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        animation-delay: 0s;
+    }
+
+    @keyframes animacion_borde {
+        0%   {border-color: $color-violeta;}
+        25%  {border-color: $color-blanco;}
+        50%  {border-color: $color-violeta;}
+        100% {border-color: $color-blanco;}
+    }
+
+    .laurel {
+        text-align: center;
+
+        .nombres4 {
+            font-size: 20px;
+        }
+
+        .precios4 {
+            font-size: 18px;
+        }
+
+        #boton13 {
+            background-color: $color-violeta;
+            border-color: $color-violeta;
+        }
+    }
+
+    .margarita {
+        text-align: center;
+
+        .nombres4 {
+            font-size: 20px;
+        }
+
+        .precios4 {
+            font-size: 18px;
+        }
+
+        #boton14 {
+            background-color: $color-violeta;
+            border-color: $color-violeta;
+        }
+    }
+
+    .clavel {
+        text-align: center;
+        
+        .nombres4 {
+            font-size: 20px;
+        }
+
+        .precios4 {
+            font-size: 18px;
+        }
+
+        #boton15 {
+            background-color: $color-violeta;
+            border-color: $color-violeta;
+        }
+    }
+
+}
+
+
+#promo {
+    text-align: center;
+    color: $color-lila;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    background-color: $color-aqua;
+    margin-top: 160px;
+    padding: 20px;
+}
+
+.promoPijamas1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .fotosPromo {
+        width: 500px;
+        height: 600px;
+    }
+
+    .azahar {
+        text-align: center;
+
+        .nombres3 {
+            font-size: 20px;
+        }
+
+        .precios3 {
+            font-size: 18px;
+        }
+
+        #boton16 {
+            background-color: $color-violeta;
+            border-color: $color-violeta;
+        }
+    }
+
+    .lirio {
+        text-align: center;
+
+        .nombres3 {
+            font-size: 20px;
+        }
+
+        .precios3 {
+            font-size: 18px;
+        }
+
+        #boton17 {
+            background-color: $color-violeta;
+            border-color: $color-violeta;
+        }
+    }
+}
+
+.promoPijamas2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+
+    .fotosPromo {
+        width: 500px;
+        height: 600px;
+    }
+
+    .magnolia {
+        text-align: center;
+
+        .nombres3 {
+            font-size: 20px;
+        }
+
+        .precios3 {
+            font-size: 18px;
+        }
+
+        #boton18 {
+            background-color: $color-violeta;
+            border-color: $color-violeta;
+        }
+    }
+}
+
+
+/* Sucursales */
+
+.sucursales {
+    font-family: 'Oswald', sans-serif;
+    color: $color-lila;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+#contact {
+    color: $color-aqua;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.cajaContacto {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    #formulario {
+        text-align: center;
+    }
+}
+
+.grid {
+    display: grid;
+    align-content:center;
+    justify-items: center;
+    grid-row-gap: 20px;
+    grid-template-areas: 
+    "sucursal1 sucursal2"
+    "direccion1 direccion2"
+    "telefono1 telefono2"
+    "horario1 horario2";
+
+    #sucursal1 {
+        grid-area: sucursal1;
+    }
+    
+    #sucursal2 {
+        grid-area: sucursal2;
+    }
+    
+    #direccion1 {
+        grid-area: direccion1;
+    }
+    
+    #direccion2 {
+        grid-area: direccion2;
+    }
+    
+    #telefono1 {
+        grid-area: telefono1;
+    }
+    
+    #telefono2 {
+        grid-area: telefono2;
+    }
+    
+    #horario1 {
+        grid-area: horario1;
+    }
+    
+    #horario2 {
+        grid-area: horario2;
+    }
+    
+}
+
+/* Version Mobile */
+
+@media only screen and (max-width: 600px) {
+    .header {
+        color: $color-blanco;
+        background-color: $color-aqua;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+
+        #headerEnvios {
+            font-size: 15px;
+            text-align: left;
+            display: inline-block;
+            margin-left: 5px;
+            word-spacing: 5px;
+            letter-spacing: 3px;
+        }
+    
+        #headerLogo {
+            display: inline-block;
+            margin: 0px;
+        }
+    
+        #headerCuotas {
+            font-size: 15px;
+            margin: 0px;
+            word-spacing: 5px;
+            letter-spacing: 3px;
+            display: inline-block;
+        }
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: left;
+        margin-right: 45px;
+
+        .categorias {
+            padding-left:0px; 
+            padding-right:0px;
+            margin: 0px
+        }
+    }
+
+    #carrito {
+        text-align: right;
+        margin-right: 60px;
+
+        .fotoCarrito {
+            width: 40px;
+            height: 40px;
+            transform: translate(40px, 0px);
+        }
+    }
+    
+    #barra {
+        margin: 0px;
+        transform: translate(30px, -45px);
+        width: 120px;
+        height: 30px;
+    }
+
+    #botonBarra {
+        transform: translate(50px, -45px);
+        height: 30px;
+    }
+    
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .telefono {
+        text-align: left;
+        color: $color-violeta;
+        margin-left: 20px;
+        font-weight: bold;
+        text-decoration: underline;
+        display: block;
+    }
+    
+    .infoFooter1 {
+        margin-left: 20px;
+        transform: translate(0px,-60px);
+    }
+
+    .infoFooter2 {
+        transform: translate(-225px, -20px);
+        margin: 0px;
+        display: initial;
+    }
+    
+    .redes {
+        text-align: left;
+        margin-left: 800px;
+        display: inline;
+        margin-right: 0px;
+        transform: translate(-780px, 90px);
+    }
+    
+    .fotosFooter {
+        text-align: left;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+
+        .fotosRedes {
+            display: inline;
+            transform: translate(-45px, 60px);
+    
+            #facebook {
+                width: 50px;
+                height: 50px;
+                margin-left: 20px;
+            }
+            
+            #instagram {
+                width: 50px;
+                height: 50px;
+            }
+            
+            #twitter {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    
+}
