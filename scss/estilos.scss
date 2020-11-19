@@ -785,21 +785,59 @@ footer {
 /* Version Mobile */
 
 @media only screen and (max-width: 600px) {
-    
 
-    .menu {
+    .header {
+        color: $color-blanco;
+        background-color: $color-aqua;
+        height: 12vh;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-content: left;
-        margin-right: 45px;
-
-        .categorias {
-            padding-left:0px; 
-            padding-right:0px;
-            margin: 0px
+        flex-wrap: nowrap;
+        justify-content: center;
+    
+        
+        #header__logo {
+            text-align: center;
+            margin: 0px;
+    
+            #logo {
+                width: 50px;
+                height: 50px;
+                margin: 0px
+            }
         }
+        
+    }
+    
+    .header2 {
+        color: $color-blanco;
+        background-color: $color-violeta;
+        height: 12vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    
+        
+        #header__logo {
+            text-align: center;
+            margin-left: 0px;
+    
+            #logo {
+                width: 50px;
+                height: 50px;
+                margin: 0px;
+            }
+        }
+    
+    }
+
+    #dropdownMenuLink {
+        background-color: $color-lila;
+    }
+
+    .dropdown-item {
+        color: $color-lila;
     }
 
     #carrito {

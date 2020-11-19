@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset ="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
     <meta name="title" content="Etérea Intimates">
     <meta name="keywords" content="lencería, ropa interior, pijamas"/>
     <meta name="description" content= "En Etérea Intimates vendemos ropa interior para todos los cuerpos. Lencería de alta calidad con variedad de talles."/>
@@ -13,19 +12,36 @@
   </head>
   <body>
     <header class="header"> 
-       <div id="header__envios"> Envíos gratis a todo el país </div>
+       <div id="header__envios" class="d-none d-sm-block"> Envíos gratis a todo el país </div>
        <div id="header__logo"> <img id="logo" src="Imagenes/Logo.png" alt="Logo"> </div>
-       <div id="header__cuotas"> 3 y 6 cuotas sin interés </div>
+       <div id="header__cuotas" class="d-none d-sm-block"> 3 y 6 cuotas sin interés </div>
     </header>
     <br>
     <nav>
-    <ul class="menu">
-      <li class="categorias"> <a href="index.html" class="secciones"> Inicio </a> </li>
-      <li class="categorias"> <a href="conjuntos.html" class="secciones"> Conjuntos </a> </li>
-      <li class="categorias"> <a href="pijamas.html" class="secciones"> Pijamas </a> </li>
-      <li class="categorias"> <a href="sale.html" class="secciones"> Sale </a> </li>
-      <li class="categorias"> <a href="sucursales.html" class="secciones"> Sucursales </a> </li>
-    </ul>
+    <section class="d-none d-sm-block">
+        <ul class="menu">
+           <li class="categorias"> <a href="index.html" class="secciones"> Inicio </a> </li>
+           <li class="categorias"> <a href="conjuntos.html" class="secciones"> Conjuntos </a> </li>
+           <li class="categorias"> <a href="pijamas.html" class="secciones"> Pijamas </a> </li>
+           <li class="categorias"> <a href="sale.html" class="secciones"> Sale </a> </li>
+           <li class="categorias"> <a href="sucursales.html" class="secciones"> Sucursales </a> </li>
+        </ul>
+    </section>
+    <section class="d-block d-sm-none">
+         <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Menu
+            </a>
+    
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+               <a class="dropdown-item" href="index.html"> Inicio </a> 
+               <a class="dropdown-item" href="conjuntos.html">Conjuntos</a>
+               <a class="dropdown-item" href="pijamas.html">Pijamas</a>
+               <a class="dropdown-item" href="sale.html">Sale</a>
+               <a class="dropdown-item" href="sucursales.html">Sucursales</a>
+            </div>
+         </div>
+    </section>
     <div id="carrito"> <img class="fotoCarrito" src="Imagenes/carrito3.png" alt="carrito"> </div>
     <button id="botonCarrito" class="btn btn-outline-success my-2 my-sm-0" type="submit"> Carrito </button>
     <form class="form-inline">
