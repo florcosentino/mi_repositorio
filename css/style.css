@@ -504,30 +504,6 @@ footer .fotosFooter {
 
 /* Version Mobile */
 @media only screen and (max-width: 600px) {
-  .header {
-    color: white;
-    background-color: #89beb3;
-    height: 15vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center; }
-    .header #headerEnvios {
-      font-size: 15px;
-      text-align: left;
-      display: inline-block;
-      margin-left: 5px;
-      word-spacing: 5px;
-      letter-spacing: 3px; }
-    .header #headerLogo {
-      display: inline-block;
-      margin: 0px; }
-    .header #headerCuotas {
-      font-size: 15px;
-      margin: 0px;
-      word-spacing: 5px;
-      letter-spacing: 3px;
-      display: inline-block; }
   .menu {
     display: flex;
     flex-direction: row;
@@ -546,6 +522,10 @@ footer .fotosFooter {
       width: 40px;
       height: 40px;
       transform: translate(40px, 0px); }
+  #botonCarrito {
+    transform: translate(40px, 0px);
+    color: #89beb3;
+    border-color: #89beb3; }
   #barra {
     margin: 0px;
     transform: translate(30px, -45px);
@@ -553,49 +533,4 @@ footer .fotosFooter {
     height: 30px; }
   #botonBarra {
     transform: translate(50px, -45px);
-    height: 30px; }
-  footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center; }
-  .telefono {
-    text-align: left;
-    color: #625261;
-    margin-left: 20px;
-    font-weight: bold;
-    text-decoration: underline;
-    display: block; }
-  .infoFooter1 {
-    margin-left: 20px;
-    transform: translate(0px, -60px); }
-  .infoFooter2 {
-    transform: translate(-225px, -20px);
-    margin: 0px;
-    display: initial; }
-  .redes {
-    text-align: left;
-    margin-left: 800px;
-    display: inline;
-    margin-right: 0px;
-    transform: translate(-780px, 90px); }
-  .fotosFooter {
-    text-align: left;
-    margin-left: 0px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-start; }
-    .fotosFooter .fotosRedes {
-      display: inline;
-      transform: translate(-45px, 60px); }
-      .fotosFooter .fotosRedes #facebook {
-        width: 50px;
-        height: 50px;
-        margin-left: 20px; }
-      .fotosFooter .fotosRedes #instagram {
-        width: 50px;
-        height: 50px; }
-      .fotosFooter .fotosRedes #twitter {
-        width: 50px;
-        height: 50px; } }
+    height: 30px; } }

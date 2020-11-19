@@ -785,75 +785,7 @@ footer {
 /* Version Mobile */
 
 @media only screen and (max-width: 600px) {
-    .header {
-        color: $color-blanco;
-        background-color: $color-aqua;
-        height: 15vh;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-
-        #headerEnvios {
-            font-size: 15px;
-            text-align: left;
-            display: inline-block;
-            margin-left: 5px;
-            word-spacing: 5px;
-            letter-spacing: 3px;
-        }
     
-        #headerLogo {
-            display: inline-block;
-            margin: 0px;
-        }
-    
-        #headerCuotas {
-            font-size: 15px;
-            margin: 0px;
-            word-spacing: 5px;
-            letter-spacing: 3px;
-            display: inline-block;
-        }
-    }
-
-    .header2 {
-        color: $color-blanco;
-        background-color: $color-violeta;
-        height: 10vh;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: center;
-    
-        #header__envios {
-            text-align: left;
-            display: inline;
-            margin-left: 100px;
-            word-spacing: 30px;
-            font-size: 20px;
-        }
-        
-        #header__logo {
-            text-align: center;
-            display: inline;
-            margin-left: 200px;
-    
-            #logo {
-                width: 50px;
-                height: 50px;
-                margin-top: 5px;
-            }
-        }
-        
-        #header__cuotas {
-            text-align: right;
-            display: inline;
-            margin-left: 200px;
-            word-spacing: 30px;
-            font-size: 20px;
-        }
-    }
 
     .menu {
         display: flex;
@@ -880,6 +812,12 @@ footer {
             transform: translate(40px, 0px);
         }
     }
+
+    #botonCarrito {
+        transform: translate(40px, 0px);
+        color: $color-aqua;
+        border-color: $color-aqua;
+    }
     
     #barra {
         margin: 0px;
@@ -892,71 +830,5 @@ footer {
         transform: translate(50px, -45px);
         height: 30px;
     }
-    
 
-    footer {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: center;
-    }
-
-    .telefono {
-        text-align: left;
-        color: $color-violeta;
-        margin-left: 20px;
-        font-weight: bold;
-        text-decoration: underline;
-        display: block;
-    }
-    
-    .infoFooter1 {
-        margin-left: 20px;
-        transform: translate(0px,-60px);
-    }
-
-    .infoFooter2 {
-        transform: translate(-225px, -20px);
-        margin: 0px;
-        display: initial;
-    }
-    
-    .redes {
-        text-align: left;
-        margin-left: 800px;
-        display: inline;
-        margin-right: 0px;
-        transform: translate(-780px, 90px);
-    }
-    
-    .fotosFooter {
-        text-align: left;
-        margin-left: 0px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: flex-start;
-
-        .fotosRedes {
-            display: inline;
-            transform: translate(-45px, 60px);
-    
-            #facebook {
-                width: 50px;
-                height: 50px;
-                margin-left: 20px;
-            }
-            
-            #instagram {
-                width: 50px;
-                height: 50px;
-            }
-            
-            #twitter {
-                width: 50px;
-                height: 50px;
-            }
-        }
-    }
-    
 }
