@@ -881,4 +881,154 @@ footer {
         height: 30px;
     }
 
+    .conjuntos1 {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: center;
+
+       .fotosConjuntos {
+          width: 300px;
+          height: 500px;
+          margin-top: 30px;
+        }
+
+    }
+
+    .conjuntos2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+ 
+        .fotosConjuntos {
+           width: 300px;
+           height: 500px;
+           margin-top: 30px;
+        }
+    }
+
+    .pijamas1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .fotosPijamas {
+            width: 300px;
+            height: 500px;
+            margin-top: 30px;
+        }
+    }
+
+    .pijamas2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .fotosPijamas {
+            width: 300px;
+            height: 500px;
+            margin-top: 30px;
+        }
+    }
+
+    .cajaBombis {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .fotosBombis {
+            width: 300px;
+            height: 500px;
+            margin-top: 30px;
+        }
+    }
+
+    .promoPijamas1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .fotosPromo {
+            width: 300px;
+            height: 400px;
+            margin-top: 30px;
+        }
+    }
+
+    .promoPijamas2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+
+        .fotosPromo {
+            width: 300px;
+            height: 400px;
+        }
+    }
+
+    .sucursales {
+        font-family: 'Oswald', sans-serif;
+        color: $color-lila;
+        letter-spacing: none;
+        font-size: 20px;
+    }
+
+    .grid {
+        display: grid;
+        align-content:center;
+        justify-items: center;
+        grid-row-gap: 20px;
+        grid-template-areas: 
+        "sucursal1"
+        "direccion1"
+        "telefono1"
+        "horario1"
+        "sucursal2"
+        "direccion2"
+        "telefono2"
+        "horario2";
+    
+        #sucursal1 {
+            grid-area: sucursal1;
+        }
+        
+        #sucursal2 {
+            grid-area: sucursal2;
+        }
+        
+        #direccion1 {
+            grid-area: direccion1;
+        }
+        
+        #direccion2 {
+            grid-area: direccion2;
+        }
+        
+        #telefono1 {
+            grid-area: telefono1;
+        }
+        
+        #telefono2 {
+            grid-area: telefono2;
+        }
+        
+        #horario1 {
+            grid-area: horario1;
+        }
+        
+        #horario2 {
+            grid-area: horario2;
+        }
+        
+    }
+
+
+
 }
