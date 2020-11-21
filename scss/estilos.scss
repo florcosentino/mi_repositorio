@@ -104,21 +104,24 @@ $color-blanco: white;
     }
 }
 
-#carrito {
-    text-align: right;
-    margin-right: 150px;
+.cajaCarrito {
 
-    .fotoCarrito {
-        width: 50px;
-        height: 50px;
-        transform: translate(40px, -20px);
+    #carrito {
+        text-align: right;
+        margin-right: 150px;
+    
+        .fotoCarrito {
+            width: 50px;
+            height: 50px;
+            transform: translate(40px, -20px);
+        }
     }
-}
-
-#botonCarrito {
-    transform: translate(1180px, -8px);
-    color: $color-aqua;
-    border-color: $color-aqua;
+    
+    #botonCarrito {
+        transform: translate(1180px, -8px);
+        color: $color-aqua;
+        border-color: $color-aqua;
+    }
 }
 
 #barra {
@@ -794,7 +797,6 @@ footer {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
-    
         
         #header__logo {
             text-align: center;
@@ -817,7 +819,6 @@ footer {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
-    
         
         #header__logo {
             text-align: center;
@@ -840,21 +841,32 @@ footer {
         color: $color-lila;
     }
 
-    #carrito {
-        text-align: right;
-        margin-right: 60px;
+    .cajaCarrito {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
 
-        .fotoCarrito {
-            width: 40px;
-            height: 40px;
-            transform: translate(40px, 0px);
+        #carrito {
+            text-align: right;
+            margin-right: 60px;
+    
+            .fotoCarrito {
+                width: 40px;
+                height: 40px;
+                transform: translate(40px, 0px);
+            }
         }
-    }
+        
+    
+        #botonCarrito {
+            transform: translate(290px, 0px);
+            color: $color-aqua;
+            border-color: $color-aqua;
+            width: 70px;
+            margin: none;
+        }
 
-    #botonCarrito {
-        transform: translate(40px, 0px);
-        color: $color-aqua;
-        border-color: $color-aqua;
     }
     
     #barra {
