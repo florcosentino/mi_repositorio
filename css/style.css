@@ -542,7 +542,8 @@ footer .fotosFooter {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center; }
+    justify-content: center;
+    align-items: flex-end; }
     .cajaCarrito #carrito {
       text-align: right;
       margin-right: 60px; }
@@ -551,7 +552,7 @@ footer .fotosFooter {
         height: 40px;
         transform: translate(40px, 0px); }
     .cajaCarrito #botonCarrito {
-      transform: translate(290px, 0px);
+      transform: none;
       color: #89beb3;
       border-color: #89beb3;
       width: 70px;

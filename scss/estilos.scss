@@ -846,6 +846,7 @@ footer {
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
+        align-items: flex-end;
 
         #carrito {
             text-align: right;
@@ -860,7 +861,7 @@ footer {
         
     
         #botonCarrito {
-            transform: translate(290px, 0px);
+            transform: none;
             color: $color-aqua;
             border-color: $color-aqua;
             width: 70px;
