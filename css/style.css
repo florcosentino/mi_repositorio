@@ -111,7 +111,7 @@ hr {
   color: #835858;
   margin-top: 100px; }
 
-footer .telefono {
+#footerEscritorio .telefono {
   text-align: left;
   color: #625261;
   margin-left: 60px;
@@ -119,7 +119,7 @@ footer .telefono {
   text-decoration: underline;
   display: inline-block; }
 
-footer .redes {
+#footerEscritorio .redes {
   text-align: right;
   color: #625261;
   margin-left: 800px;
@@ -127,27 +127,27 @@ footer .redes {
   text-decoration: underline;
   display: inline-block; }
 
-footer .infoFooter1 {
+#footerEscritorio .infoFooter1 {
   margin-left: 60px; }
 
-footer .infoFooter2 {
+#footerEscritorio .infoFooter2 {
   margin-left: 60px;
   display: inline; }
 
-footer .fotosFooter {
+#footerEscritorio .fotosFooter {
   text-align: right;
   margin-left: 750px;
   display: inline; }
-  footer .fotosFooter .fotosRedes {
+  #footerEscritorio .fotosFooter .fotosRedes {
     display: inline; }
-    footer .fotosFooter .fotosRedes #facebook {
+    #footerEscritorio .fotosFooter .fotosRedes #facebook {
       width: 50px;
       height: 50px;
       margin-left: 20px; }
-    footer .fotosFooter .fotosRedes #instagram {
+    #footerEscritorio .fotosFooter .fotosRedes #instagram {
       width: 50px;
       height: 50px; }
-    footer .fotosFooter .fotosRedes #twitter {
+    #footerEscritorio .fotosFooter .fotosRedes #twitter {
       width: 50px;
       height: 50px; }
 
@@ -654,4 +654,59 @@ footer .fotosFooter {
     .grid #horario1 {
       grid-area: horario1; }
     .grid #horario2 {
-      grid-area: horario2; } }
+      grid-area: horario2; }
+  #footerMobile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0px;
+    margin-left: 20px; }
+    #footerMobile .cajaAtencion {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: flex-start; }
+      #footerMobile .cajaAtencion .telefono {
+        text-align: none;
+        color: #625261;
+        margin: none;
+        font-weight: bold;
+        text-decoration: underline;
+        display: inline-block; }
+      #footerMobile .cajaAtencion .infoFooter1 {
+        margin: none; }
+      #footerMobile .cajaAtencion .infoFooter2 {
+        margin: none;
+        display: inline; }
+    #footerMobile .cajaRedes {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      padding: 0px; }
+      #footerMobile .cajaRedes .redes {
+        text-align: none;
+        color: #625261;
+        margin: 0px;
+        font-weight: bold;
+        text-decoration: underline;
+        display: inline-block; }
+      #footerMobile .cajaRedes .fotosFooter {
+        text-align: none;
+        margin: 0px;
+        display: inline;
+        padding: 0px; }
+        #footerMobile .cajaRedes .fotosFooter .fotosRedes {
+          display: inline;
+          padding: 0px; }
+          #footerMobile .cajaRedes .fotosFooter .fotosRedes #facebook {
+            width: 50px;
+            height: 50px;
+            margin: 0px; }
+          #footerMobile .cajaRedes .fotosFooter .fotosRedes #instagram {
+            width: 50px;
+            height: 50px; }
+          #footerMobile .cajaRedes .fotosFooter .fotosRedes #twitter {
+            width: 50px;
+            height: 50px; } }
