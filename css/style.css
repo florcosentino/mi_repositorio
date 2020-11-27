@@ -7,17 +7,22 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-evenly; }
   .header #header__envios {
     text-align: left;
     display: inline;
-    margin-left: 100px;
-    word-spacing: 30px;
-    font-size: 20px; }
+    word-spacing: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    animation-name: animacion_header;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 0s; }
   .header #header__logo {
     text-align: center;
-    display: inline;
-    margin-left: 200px; }
+    display: inline; }
     .header #header__logo #logo {
       width: 50px;
       height: 50px;
@@ -25,9 +30,24 @@
   .header #header__cuotas {
     text-align: right;
     display: inline;
-    margin-left: 200px;
-    word-spacing: 30px;
-    font-size: 20px; }
+    word-spacing: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    animation-name: animacion_header;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 0s; }
+
+@keyframes animacion_header {
+  0% {
+    color: #89beb3; }
+  25% {
+    color: white; }
+  50% {
+    color: #89beb3; }
+  100% {
+    color: white; } }
 
 .header2 {
   color: white;
@@ -36,17 +56,22 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-evenly; }
   .header2 #header__envios {
     text-align: left;
     display: inline;
-    margin-left: 100px;
-    word-spacing: 30px;
-    font-size: 20px; }
+    word-spacing: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    animation-name: animacion_header2;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 0s; }
   .header2 #header__logo {
     text-align: center;
-    display: inline;
-    margin-left: 200px; }
+    display: inline; }
     .header2 #header__logo #logo {
       width: 50px;
       height: 50px;
@@ -54,9 +79,24 @@
   .header2 #header__cuotas {
     text-align: right;
     display: inline;
-    margin-left: 200px;
-    word-spacing: 30px;
-    font-size: 20px; }
+    word-spacing: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    animation-name: animacion_header2;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 0s; }
+
+@keyframes animacion_header2 {
+  0% {
+    color: #625261; }
+  25% {
+    color: white; }
+  50% {
+    color: #625261; }
+  100% {
+    color: white; } }
 
 .menu {
   text-align: center; }
@@ -340,16 +380,6 @@ hr {
       border-color: #835858; }
 
 /* Sale */
-@keyframes animacion_borde {
-  0% {
-    border-color: #625261; }
-  25% {
-    border-color: white; }
-  50% {
-    border-color: #625261; }
-  100% {
-    border-color: white; } }
-
 .cajaBombis {
   display: flex;
   flex-direction: row;

@@ -15,19 +15,24 @@ $color-blanco: white;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    justify-content: space-evenly;
 
     #header__envios {
         text-align: left;
         display: inline;
-        margin-left: 100px;
-        word-spacing: 30px;
+        word-spacing: 20px;
         font-size: 20px;
+        text-transform: uppercase;
+        animation-name: animacion_header;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 4s;
+        animation-delay: 0s;
     }
     
     #header__logo {
         text-align: center;
         display: inline;
-        margin-left: 200px;
 
         #logo {
             width: 50px;
@@ -39,11 +44,24 @@ $color-blanco: white;
     #header__cuotas {
         text-align: right;
         display: inline;
-        margin-left: 200px;
-        word-spacing: 30px;
+        word-spacing: 20px;
         font-size: 20px;
+        text-transform: uppercase;
+        animation-name: animacion_header;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 4s;
+        animation-delay: 0s;
+    }
+
+    @keyframes animacion_header {
+        0%   {color: $color-aqua;}
+        25%  {color: $color-blanco;}
+        50%  {color: $color-aqua;}
+        100% {color: $color-blanco;}
     }
 }
+
 
 .header2 {
     color: $color-blanco;
@@ -53,19 +71,24 @@ $color-blanco: white;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    justify-content: space-evenly;
 
     #header__envios {
         text-align: left;
         display: inline;
-        margin-left: 100px;
-        word-spacing: 30px;
+        word-spacing: 20px;
         font-size: 20px;
+        text-transform: uppercase;
+        animation-name: animacion_header2;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 4s;
+        animation-delay: 0s;
     }
     
     #header__logo {
         text-align: center;
         display: inline;
-        margin-left: 200px;
 
         #logo {
             width: 50px;
@@ -77,9 +100,21 @@ $color-blanco: white;
     #header__cuotas {
         text-align: right;
         display: inline;
-        margin-left: 200px;
-        word-spacing: 30px;
+        word-spacing: 20px;
         font-size: 20px;
+        text-transform: uppercase;
+        animation-name: animacion_header2;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 4s;
+        animation-delay: 0s;
+    }
+
+    @keyframes animacion_header2 {
+        0%   {color: $color-violeta;}
+        25%  {color: $color-blanco;}
+        50%  {color: $color-violeta;}
+        100% {color: $color-blanco;}
     }
 }
 
@@ -540,12 +575,6 @@ hr{
 /* Sale */
 
 
-@keyframes animacion_borde {
-    0%   {border-color: $color-violeta;}
-    25%  {border-color: $color-blanco;}
-    50%  {border-color: $color-violeta;}
-    100% {border-color: $color-blanco;}
-}
 
 .cajaBombis {
     display: flex;
