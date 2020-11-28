@@ -139,25 +139,35 @@ $color-blanco: white;
     }
 }
 
-.cajaCarrito {
+ .cajaCarrito {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-end;
+        transform: translate(-100px, 0px);
 
-    #carrito {
-        text-align: right;
-        margin-right: 150px;
+        #carrito {
+            text-align: right;
+            margin-right: 60px;
     
-        .fotoCarrito {
-            width: 50px;
-            height: 50px;
-            transform: translate(40px, -20px);
+            .fotoCarrito {
+                width: 40px;
+                height: 40px;
+                transform: translate(40px, 0px);
+            }
         }
-    }
+        
     
-    #botonCarrito {
-        transform: translate(1180px, -8px);
-        color: $color-aqua;
-        border-color: $color-aqua;
+        #botonCarrito {
+            transform: none;
+            color: $color-aqua;
+            border-color: $color-aqua;
+            width: 70px;
+            margin: none;
+        }
+
     }
-}
 
 #barra {
     margin-left: 100px;
@@ -876,6 +886,7 @@ hr{
         flex-wrap: nowrap;
         justify-content: center;
         align-items: flex-end;
+        transform: none;
 
         #carrito {
             text-align: right;
@@ -1136,5 +1147,94 @@ hr{
                 }
             }
         }
+    }
+}
+
+/*Version tablet*/
+
+@media (min-width: 570px) and (max-width: 900px) {
+
+    .header {
+    
+        #header__envios {
+            word-spacing: 15px;
+            font-size: 15px;
+        }
+        
+        #header__logo {
+    
+            #logo {
+                width: 45px;
+                height: 45px;
+                margin-top: 0px;
+            }
+        }
+        
+        #header__cuotas {
+            word-spacing: 15px;
+            font-size: 15px;
+        }
+    }
+    
+    
+    .header2 {
+
+        #header__envios {
+            word-spacing: 15px;
+            font-size: 15px;
+        }
+        
+        #header__logo {
+    
+            #logo {
+                width: 45px;
+                height: 45px;
+                margin-top: 0px;
+            }
+        }
+        
+        #header__cuotas {
+            word-spacing: 15px;
+            font-size: 15px;
+        }
+    
+    }
+
+    .cajaCarrito {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-end;
+        transform: none;
+
+        #carrito {
+            text-align: right;
+            margin-right: 60px;
+    
+            .fotoCarrito {
+                width: 40px;
+                height: 40px;
+                transform: translate(40px, 0px);
+            }
+        }
+        
+    
+        #botonCarrito {
+            transform: none;
+            color: $color-aqua;
+            border-color: $color-aqua;
+            width: 70px;
+            margin: none;
+        }
+
+    }
+
+    #barra {
+        transform: translate(-70px, -70px);
+    }
+    
+    #botonBarra {
+        transform: translate(-70px, -70px);
     }
 }

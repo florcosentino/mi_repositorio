@@ -113,18 +113,26 @@
     padding-left: 3px;
     padding-right: 3px; }
 
-.cajaCarrito #carrito {
-  text-align: right;
-  margin-right: 150px; }
-  .cajaCarrito #carrito .fotoCarrito {
-    width: 50px;
-    height: 50px;
-    transform: translate(40px, -20px); }
-
-.cajaCarrito #botonCarrito {
-  transform: translate(1180px, -8px);
-  color: #89beb3;
-  border-color: #89beb3; }
+.cajaCarrito {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translate(-100px, 0px); }
+  .cajaCarrito #carrito {
+    text-align: right;
+    margin-right: 60px; }
+    .cajaCarrito #carrito .fotoCarrito {
+      width: 40px;
+      height: 40px;
+      transform: translate(40px, 0px); }
+  .cajaCarrito #botonCarrito {
+    transform: none;
+    color: #89beb3;
+    border-color: #89beb3;
+    width: 70px;
+    margin: none; }
 
 #barra {
   margin-left: 100px;
@@ -573,7 +581,8 @@ hr {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: flex-end; }
+    align-items: flex-end;
+    transform: none; }
     .cajaCarrito #carrito {
       text-align: right;
       margin-right: 60px; }
@@ -740,3 +749,50 @@ hr {
           #footerMobile .cajaRedes .fotosFooter .fotosRedes #twitter {
             width: 50px;
             height: 50px; } }
+
+/*Version tablet*/
+@media (min-width: 570px) and (max-width: 900px) {
+  .header #header__envios {
+    word-spacing: 15px;
+    font-size: 15px; }
+  .header #header__logo #logo {
+    width: 45px;
+    height: 45px;
+    margin-top: 0px; }
+  .header #header__cuotas {
+    word-spacing: 15px;
+    font-size: 15px; }
+  .header2 #header__envios {
+    word-spacing: 15px;
+    font-size: 15px; }
+  .header2 #header__logo #logo {
+    width: 45px;
+    height: 45px;
+    margin-top: 0px; }
+  .header2 #header__cuotas {
+    word-spacing: 15px;
+    font-size: 15px; }
+  .cajaCarrito {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    transform: none; }
+    .cajaCarrito #carrito {
+      text-align: right;
+      margin-right: 60px; }
+      .cajaCarrito #carrito .fotoCarrito {
+        width: 40px;
+        height: 40px;
+        transform: translate(40px, 0px); }
+    .cajaCarrito #botonCarrito {
+      transform: none;
+      color: #89beb3;
+      border-color: #89beb3;
+      width: 70px;
+      margin: none; }
+  #barra {
+    transform: translate(-70px, -70px); }
+  #botonBarra {
+    transform: translate(-70px, -70px); } }
