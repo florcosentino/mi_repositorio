@@ -163,7 +163,8 @@ hr {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: baseline;
   margin-left: 20px; }
   #footerEscritorio .cajaAtencion {
     display: flex;
@@ -192,7 +193,8 @@ hr {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: flex-start; }
+    align-content: flex-start;
+    margin-top: 10px; }
     #footerEscritorio .cajaRedes .redes {
       color: #625261;
       font-weight: bold;
@@ -587,17 +589,17 @@ hr {
         width: 50px;
         height: 50px;
         margin: 0px; }
-  #dropdownMenuLink {
+  .bg-lila {
+    color: #835858;
     background-color: #835858; }
-  .dropdown-item {
-    color: #835858; }
   .cajaCarrito {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-end;
-    transform: none; }
+    transform: none;
+    margin-top: 15px; }
     .cajaCarrito #carrito {
       text-align: right;
       margin-right: 60px; }
@@ -744,7 +746,8 @@ hr {
       flex-direction: column;
       flex-wrap: wrap;
       align-content: flex-start;
-      padding: 0px; }
+      padding: 0px;
+      margin-top: 10px; }
       #footerMobile .cajaRedes .redes {
         text-align: none;
         color: #625261;

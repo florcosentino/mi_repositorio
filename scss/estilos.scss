@@ -203,7 +203,8 @@ hr{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: baseline;
     margin-left: 20px;
     
     .cajaAtencion {
@@ -244,6 +245,7 @@ hr{
         flex-direction: column;
         flex-wrap: wrap;
         align-content: flex-start;
+        margin-top: 10px;
 
         .redes {
             color: $color-violeta;
@@ -896,13 +898,12 @@ hr{
     
     }
 
-    #dropdownMenuLink {
+
+    .bg-lila {
+        color: $color-lila;
         background-color: $color-lila;
     }
 
-    .dropdown-item {
-        color: $color-lila;
-    }
 
     .cajaCarrito {
         display: flex;
@@ -911,6 +912,7 @@ hr{
         justify-content: center;
         align-items: flex-end;
         transform: none;
+        margin-top: 15px;
 
         #carrito {
             text-align: right;
@@ -1141,6 +1143,7 @@ hr{
             flex-wrap: wrap;
             align-content: flex-start;
             padding: 0px;
+            margin-top: 10px;
 
             .redes {
                 text-align: none;
