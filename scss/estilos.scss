@@ -200,56 +200,67 @@ hr{
 }
 
 #footerEscritorio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+    .cajaAtencion {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
 
-    .telefono {
-        text-align: left;
-        color: $color-violeta;
-        margin-left: 60px;
-        font-weight: bold;
-        text-decoration: underline;
-        display: inline-block;
+        .telefono {
+            color: $color-violeta;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .infoFooter1 {
+            margin: none;
+        }
+    
+        .infoFooter2 {
+            margin: none;
+        }
     }
 
-    .redes {
-        text-align: right;
-        color: $color-violeta;
-        margin-left: 800px;
-        font-weight: bold;
-        text-decoration: underline;
-        display: inline-block;
-    }
+    .cajaRedes {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
 
-    .infoFooter1 {
-        margin-left: 60px;
-    }
-
-    .infoFooter2 {
-        margin-left: 60px;
-        display: inline;
-    }
-
-    .fotosFooter {
-        text-align: right;
-        margin-left: 750px;
-        display: inline;
-
-        .fotosRedes {
+        .redes {
+            color: $color-violeta;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        
+        .fotosFooter {
             display: inline;
+            padding: 0px;
 
-            #facebook {
-                width: 50px;
-                height: 50px;
-                margin-left: 20px;
-            }
-            
-            #instagram {
-                width: 50px;
-                height: 50px;
-            }
-            
-            #twitter {
-                width: 50px;
-                height: 50px;
+            .fotosRedes {
+                display: inline;
+                padding: 0px;
+
+                #facebook {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0px;
+                }
+
+                #instagram {
+                    width: 50px;
+                    height: 50px;
+                }
+
+                #twitter {
+                    width: 50px;
+                    height: 50px;
+                }
             }
         }
     }
@@ -1155,6 +1166,7 @@ hr{
 @media (min-width: 570px) and (max-width: 900px) {
 
     .header {
+        height: 12vh;
     
         #header__envios {
             word-spacing: 15px;
@@ -1178,6 +1190,7 @@ hr{
     
     
     .header2 {
+        height: 12vh;
 
         #header__envios {
             word-spacing: 15px;

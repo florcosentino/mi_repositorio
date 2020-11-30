@@ -159,45 +159,49 @@ hr {
   color: #835858;
   margin-top: 100px; }
 
-#footerEscritorio .telefono {
-  text-align: left;
-  color: #625261;
-  margin-left: 60px;
-  font-weight: bold;
-  text-decoration: underline;
-  display: inline-block; }
-
-#footerEscritorio .redes {
-  text-align: right;
-  color: #625261;
-  margin-left: 800px;
-  font-weight: bold;
-  text-decoration: underline;
-  display: inline-block; }
-
-#footerEscritorio .infoFooter1 {
-  margin-left: 60px; }
-
-#footerEscritorio .infoFooter2 {
-  margin-left: 60px;
-  display: inline; }
-
-#footerEscritorio .fotosFooter {
-  text-align: right;
-  margin-left: 750px;
-  display: inline; }
-  #footerEscritorio .fotosFooter .fotosRedes {
-    display: inline; }
-    #footerEscritorio .fotosFooter .fotosRedes #facebook {
-      width: 50px;
-      height: 50px;
-      margin-left: 20px; }
-    #footerEscritorio .fotosFooter .fotosRedes #instagram {
-      width: 50px;
-      height: 50px; }
-    #footerEscritorio .fotosFooter .fotosRedes #twitter {
-      width: 50px;
-      height: 50px; }
+#footerEscritorio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+  #footerEscritorio .cajaAtencion {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start; }
+    #footerEscritorio .cajaAtencion .telefono {
+      color: #625261;
+      font-weight: bold;
+      text-decoration: underline; }
+    #footerEscritorio .cajaAtencion .infoFooter1 {
+      margin: none; }
+    #footerEscritorio .cajaAtencion .infoFooter2 {
+      margin: none; }
+  #footerEscritorio .cajaRedes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start; }
+    #footerEscritorio .cajaRedes .redes {
+      color: #625261;
+      font-weight: bold;
+      text-decoration: underline; }
+    #footerEscritorio .cajaRedes .fotosFooter {
+      display: inline;
+      padding: 0px; }
+      #footerEscritorio .cajaRedes .fotosFooter .fotosRedes {
+        display: inline;
+        padding: 0px; }
+        #footerEscritorio .cajaRedes .fotosFooter .fotosRedes #facebook {
+          width: 50px;
+          height: 50px;
+          margin: 0px; }
+        #footerEscritorio .cajaRedes .fotosFooter .fotosRedes #instagram {
+          width: 50px;
+          height: 50px; }
+        #footerEscritorio .cajaRedes .fotosFooter .fotosRedes #twitter {
+          width: 50px;
+          height: 50px; }
 
 /* pagina principal */
 #titulo {
@@ -752,26 +756,30 @@ hr {
 
 /*Version tablet*/
 @media (min-width: 570px) and (max-width: 900px) {
-  .header #header__envios {
-    word-spacing: 15px;
-    font-size: 15px; }
-  .header #header__logo #logo {
-    width: 45px;
-    height: 45px;
-    margin-top: 0px; }
-  .header #header__cuotas {
-    word-spacing: 15px;
-    font-size: 15px; }
-  .header2 #header__envios {
-    word-spacing: 15px;
-    font-size: 15px; }
-  .header2 #header__logo #logo {
-    width: 45px;
-    height: 45px;
-    margin-top: 0px; }
-  .header2 #header__cuotas {
-    word-spacing: 15px;
-    font-size: 15px; }
+  .header {
+    height: 12vh; }
+    .header #header__envios {
+      word-spacing: 15px;
+      font-size: 15px; }
+    .header #header__logo #logo {
+      width: 45px;
+      height: 45px;
+      margin-top: 0px; }
+    .header #header__cuotas {
+      word-spacing: 15px;
+      font-size: 15px; }
+  .header2 {
+    height: 12vh; }
+    .header2 #header__envios {
+      word-spacing: 15px;
+      font-size: 15px; }
+    .header2 #header__logo #logo {
+      width: 45px;
+      height: 45px;
+      margin-top: 0px; }
+    .header2 #header__cuotas {
+      word-spacing: 15px;
+      font-size: 15px; }
   .cajaCarrito {
     display: flex;
     flex-direction: column;
