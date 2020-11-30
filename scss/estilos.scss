@@ -204,6 +204,7 @@ hr{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
+    margin-left: 20px;
     
     .cajaAtencion {
         display: flex;
@@ -223,6 +224,18 @@ hr{
     
         .infoFooter2 {
             margin: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+
+            #fotoTelefono {
+                display: inline;
+                width: 30px;
+                height: 30px;
+                margin-right: 5px;
+                margin-bottom: 3px;
+            }
         }
     }
 
@@ -1094,23 +1107,31 @@ hr{
             flex-direction: column;
             flex-wrap: wrap;
             align-content: flex-start;
-
+    
             .telefono {
-                text-align: none;
                 color: $color-violeta;
-                margin: none;
                 font-weight: bold;
                 text-decoration: underline;
-                display: inline-block;
             }
-
+    
             .infoFooter1 {
                 margin: none;
             }
         
             .infoFooter2 {
                 margin: none;
-                display: inline;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+    
+                #fotoTelefono {
+                    display: inline;
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 5px;
+                    margin-bottom: 3px;
+                }
             }
         }
 

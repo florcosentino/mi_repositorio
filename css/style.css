@@ -163,7 +163,8 @@ hr {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-left: 20px; }
   #footerEscritorio .cajaAtencion {
     display: flex;
     flex-direction: column;
@@ -176,7 +177,17 @@ hr {
     #footerEscritorio .cajaAtencion .infoFooter1 {
       margin: none; }
     #footerEscritorio .cajaAtencion .infoFooter2 {
-      margin: none; }
+      margin: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center; }
+      #footerEscritorio .cajaAtencion .infoFooter2 #fotoTelefono {
+        display: inline;
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+        margin-bottom: 3px; }
   #footerEscritorio .cajaRedes {
     display: flex;
     flex-direction: column;
@@ -711,17 +722,23 @@ hr {
       flex-wrap: wrap;
       align-content: flex-start; }
       #footerMobile .cajaAtencion .telefono {
-        text-align: none;
         color: #625261;
-        margin: none;
         font-weight: bold;
-        text-decoration: underline;
-        display: inline-block; }
+        text-decoration: underline; }
       #footerMobile .cajaAtencion .infoFooter1 {
         margin: none; }
       #footerMobile .cajaAtencion .infoFooter2 {
         margin: none;
-        display: inline; }
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center; }
+        #footerMobile .cajaAtencion .infoFooter2 #fotoTelefono {
+          display: inline;
+          width: 30px;
+          height: 30px;
+          margin-right: 5px;
+          margin-bottom: 3px; }
     #footerMobile .cajaRedes {
       display: flex;
       flex-direction: column;
