@@ -193,10 +193,10 @@ $color-blanco: white;
     margin-bottom: 140px;
 }
 
-hr{
-    border: 0.5px solid;
-    color: $color-lila;
-    margin-top: 100px;
+
+footer {
+    background-color: $color-lila;
+    margin-top: 90px;
 }
 
 #footerEscritorio {
@@ -214,13 +214,14 @@ hr{
         align-content: flex-start;
 
         .telefono {
-            color: $color-violeta;
+            color: $color-blanco;
             font-weight: bold;
             text-decoration: underline;
         }
 
         .infoFooter1 {
             margin: none;
+            color: $color-blanco;
         }
     
         .infoFooter2 {
@@ -229,6 +230,7 @@ hr{
             flex-direction: row;
             flex-wrap: nowrap;
             align-items: center;
+            color: $color-blanco;
 
             #fotoTelefono {
                 display: inline;
@@ -248,7 +250,7 @@ hr{
         margin-top: 10px;
 
         .redes {
-            color: $color-violeta;
+            color: $color-blanco;
             font-weight: bold;
             text-decoration: underline;
         }
@@ -318,7 +320,7 @@ hr{
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 30px;
+            margin-right: 0px;
         }
 
         .precios1 {
@@ -337,7 +339,7 @@ hr{
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 30px;
+            margin-right: 0px;
         }
 
         .precios1 {
@@ -355,7 +357,7 @@ hr{
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 30px;
+            margin-right: 0px;
         }
 
         .precios1 {
@@ -373,7 +375,7 @@ hr{
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 30px;
+            margin-right: 0px;
         }
 
         .precios1 {
@@ -403,7 +405,7 @@ hr{
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 30px;
+            margin-right: 0px;
         }
 
         .precios1 {
@@ -421,7 +423,7 @@ hr{
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 30px;
+            margin-right: 0px;
         }
 
         .precios1 {
@@ -439,7 +441,7 @@ hr{
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 30px;
+            margin-right: 0px;
         }
 
         .precios1 {
@@ -457,7 +459,7 @@ hr{
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 30px;
+            margin-right: 0px;
         }
 
         .precios1 {
@@ -799,6 +801,7 @@ hr{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    
 
     #formulario {
         text-align: center;
@@ -1111,13 +1114,14 @@ hr{
             align-content: flex-start;
     
             .telefono {
-                color: $color-violeta;
+                color: $color-blanco;
                 font-weight: bold;
                 text-decoration: underline;
             }
     
             .infoFooter1 {
                 margin: none;
+                color: $color-blanco;
             }
         
             .infoFooter2 {
@@ -1126,6 +1130,7 @@ hr{
                 flex-direction: row;
                 flex-wrap: nowrap;
                 align-items: center;
+                color: $color-blanco;
     
                 #fotoTelefono {
                     display: inline;
@@ -1147,7 +1152,7 @@ hr{
 
             .redes {
                 text-align: none;
-                color: $color-violeta;
+                color: $color-blanco;
                 margin: 0px;
                 font-weight: bold;
                 text-decoration: underline;

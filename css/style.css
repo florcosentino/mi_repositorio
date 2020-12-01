@@ -154,10 +154,9 @@
   color: #625261;
   margin-bottom: 140px; }
 
-hr {
-  border: 0.5px solid;
-  color: #835858;
-  margin-top: 100px; }
+footer {
+  background-color: #835858;
+  margin-top: 90px; }
 
 #footerEscritorio {
   display: flex;
@@ -172,17 +171,19 @@ hr {
     flex-wrap: wrap;
     align-content: flex-start; }
     #footerEscritorio .cajaAtencion .telefono {
-      color: #625261;
+      color: white;
       font-weight: bold;
       text-decoration: underline; }
     #footerEscritorio .cajaAtencion .infoFooter1 {
-      margin: none; }
+      margin: none;
+      color: white; }
     #footerEscritorio .cajaAtencion .infoFooter2 {
       margin: none;
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
-      align-items: center; }
+      align-items: center;
+      color: white; }
       #footerEscritorio .cajaAtencion .infoFooter2 #fotoTelefono {
         display: inline;
         width: 30px;
@@ -196,7 +197,7 @@ hr {
     align-content: flex-start;
     margin-top: 10px; }
     #footerEscritorio .cajaRedes .redes {
-      color: #625261;
+      color: white;
       font-weight: bold;
       text-decoration: underline; }
     #footerEscritorio .cajaRedes .fotosFooter {
@@ -243,7 +244,7 @@ hr {
     text-align: center; }
     .conjuntos1 .orquidea .nombres1 {
       font-size: 20px;
-      margin-right: 30px; }
+      margin-right: 0px; }
     .conjuntos1 .orquidea .precios1 {
       font-size: 18px; }
     .conjuntos1 .orquidea #boton1 {
@@ -253,7 +254,7 @@ hr {
     text-align: center; }
     .conjuntos1 .amapola .nombres1 {
       font-size: 20px;
-      margin-right: 30px; }
+      margin-right: 0px; }
     .conjuntos1 .amapola .precios1 {
       font-size: 18px; }
     .conjuntos1 .amapola #boton2 {
@@ -263,7 +264,7 @@ hr {
     text-align: center; }
     .conjuntos1 .jazmin .nombres1 {
       font-size: 20px;
-      margin-right: 30px; }
+      margin-right: 0px; }
     .conjuntos1 .jazmin .precios1 {
       font-size: 18px; }
     .conjuntos1 .jazmin #boton3 {
@@ -273,7 +274,7 @@ hr {
     text-align: center; }
     .conjuntos1 .dalia .nombres1 {
       font-size: 20px;
-      margin-right: 30px; }
+      margin-right: 0px; }
     .conjuntos1 .dalia .precios1 {
       font-size: 18px; }
     .conjuntos1 .dalia #boton4 {
@@ -292,7 +293,7 @@ hr {
     text-align: center; }
     .conjuntos2 .hortensia .nombres1 {
       font-size: 20px;
-      margin-right: 30px; }
+      margin-right: 0px; }
     .conjuntos2 .hortensia .precios1 {
       font-size: 18px; }
     .conjuntos2 .hortensia #boton5 {
@@ -302,7 +303,7 @@ hr {
     text-align: center; }
     .conjuntos2 .iris .nombres1 {
       font-size: 20px;
-      margin-right: 30px; }
+      margin-right: 0px; }
     .conjuntos2 .iris .precios1 {
       font-size: 18px; }
     .conjuntos2 .iris #boton6 {
@@ -312,7 +313,7 @@ hr {
     text-align: center; }
     .conjuntos2 .girasol .nombres1 {
       font-size: 20px;
-      margin-right: 30px; }
+      margin-right: 0px; }
     .conjuntos2 .girasol .precios1 {
       font-size: 18px; }
     .conjuntos2 .girasol #boton7 {
@@ -322,7 +323,7 @@ hr {
     text-align: center; }
     .conjuntos2 .narciso .nombres1 {
       font-size: 20px;
-      margin-right: 30px; }
+      margin-right: 0px; }
     .conjuntos2 .narciso .precios1 {
       font-size: 18px; }
     .conjuntos2 .narciso #boton8 {
@@ -724,17 +725,19 @@ hr {
       flex-wrap: wrap;
       align-content: flex-start; }
       #footerMobile .cajaAtencion .telefono {
-        color: #625261;
+        color: white;
         font-weight: bold;
         text-decoration: underline; }
       #footerMobile .cajaAtencion .infoFooter1 {
-        margin: none; }
+        margin: none;
+        color: white; }
       #footerMobile .cajaAtencion .infoFooter2 {
         margin: none;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        align-items: center; }
+        align-items: center;
+        color: white; }
         #footerMobile .cajaAtencion .infoFooter2 #fotoTelefono {
           display: inline;
           width: 30px;
@@ -750,7 +753,7 @@ hr {
       margin-top: 10px; }
       #footerMobile .cajaRedes .redes {
         text-align: none;
-        color: #625261;
+        color: white;
         margin: 0px;
         font-weight: bold;
         text-decoration: underline;
