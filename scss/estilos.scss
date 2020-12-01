@@ -310,6 +310,12 @@ footer {
     flex-wrap: nowrap;
     justify-content: space-around;
 
+    .cajaConjuntos {
+        &:hover {
+            transform: scale(1, 1.1);
+        }
+    }
+
     .fotosConjuntos {
         width: 300px;
         height: 500px;
@@ -394,6 +400,12 @@ footer {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
+
+    .cajaConjuntos {
+        &:hover {
+            transform: scale(1, 1.1);
+        }
+    }
 
     .fotosConjuntos {
         width: 300px;
@@ -514,6 +526,12 @@ footer {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
+
+    .cajaPijamas {
+        &:hover {
+            transform: scale(1, 1.1);
+        }
+    }
     
     .fotosPijamas {
         width: 400px;
@@ -566,6 +584,12 @@ footer {
     flex-wrap: nowrap;
     justify-content: space-around;
 
+    .cajaPijamas {
+        &:hover {
+            transform: scale(1, 1.1);
+        }
+    }
+
     .fotosPijamas {
         width: 400px;
         height: 600px;
@@ -614,11 +638,17 @@ footer {
 
 
 
-.cajaBombis {
+.bombis {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+
+    .cajaBombis {
+        &:hover {
+            transform: scale(1, 1.1);
+        }
+    }
 
     .fotosBombis {
         width: 400px;
@@ -709,6 +739,12 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
 
+    .cajaPromo {
+        &:hover {
+            transform: scale(1, 1.1);
+        }
+    }
+
     .fotosPromo {
         width: 500px;
         height: 600px;
@@ -756,6 +792,12 @@ footer {
     justify-content: center;
     margin-top: 60px;
 
+    .cajaPromo {
+        &:hover {
+            transform: scale(1, 1.1);
+        }
+    }
+
     .fotosPromo {
         width: 500px;
         height: 600px;
@@ -794,17 +836,24 @@ footer {
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 .cajaContacto {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
     margin-top: 50px;
     
 
     #formulario {
         text-align: center;
+    }
+
+    .mapa {
+        width: 400px;
+        height: 500px;
     }
 }
 
@@ -812,6 +861,10 @@ footer {
     display: grid;
     align-content:center;
     justify-items: center;
+    border: double 5px $color-violeta;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 10px;
     grid-row-gap: 20px;
     grid-template-areas: 
     "sucursal1 sucursal2"
@@ -1004,7 +1057,7 @@ footer {
         }
     }
 
-    .cajaBombis {
+    .bombis {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

@@ -237,6 +237,8 @@ footer {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around; }
+  .conjuntos1 .cajaConjuntos:hover {
+    transform: scale(1, 1.1); }
   .conjuntos1 .fotosConjuntos {
     width: 300px;
     height: 500px; }
@@ -286,6 +288,8 @@ footer {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around; }
+  .conjuntos2 .cajaConjuntos:hover {
+    transform: scale(1, 1.1); }
   .conjuntos2 .fotosConjuntos {
     width: 300px;
     height: 500px; }
@@ -356,6 +360,8 @@ footer {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around; }
+  .pijamas1 .cajaPijamas:hover {
+    transform: scale(1, 1.1); }
   .pijamas1 .fotosPijamas {
     width: 400px;
     height: 600px; }
@@ -383,6 +389,8 @@ footer {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around; }
+  .pijamas2 .cajaPijamas:hover {
+    transform: scale(1, 1.1); }
   .pijamas2 .fotosPijamas {
     width: 400px;
     height: 600px; }
@@ -406,12 +414,14 @@ footer {
       border-color: #835858; }
 
 /* Sale */
-.cajaBombis {
+.bombis {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly; }
-  .cajaBombis .fotosBombis {
+  .bombis .cajaBombis:hover {
+    transform: scale(1, 1.1); }
+  .bombis .fotosBombis {
     width: 400px;
     height: 600px;
     border: dotted 5px #625261;
@@ -430,31 +440,31 @@ footer {
     border-color: #625261; }
   100% {
     border-color: white; } }
-  .cajaBombis .laurel {
+  .bombis .laurel {
     text-align: center; }
-    .cajaBombis .laurel .nombres4 {
+    .bombis .laurel .nombres4 {
       font-size: 20px; }
-    .cajaBombis .laurel .precios4 {
+    .bombis .laurel .precios4 {
       font-size: 18px; }
-    .cajaBombis .laurel #boton13 {
+    .bombis .laurel #boton13 {
       background-color: #625261;
       border-color: #625261; }
-  .cajaBombis .margarita {
+  .bombis .margarita {
     text-align: center; }
-    .cajaBombis .margarita .nombres4 {
+    .bombis .margarita .nombres4 {
       font-size: 20px; }
-    .cajaBombis .margarita .precios4 {
+    .bombis .margarita .precios4 {
       font-size: 18px; }
-    .cajaBombis .margarita #boton14 {
+    .bombis .margarita #boton14 {
       background-color: #625261;
       border-color: #625261; }
-  .cajaBombis .clavel {
+  .bombis .clavel {
     text-align: center; }
-    .cajaBombis .clavel .nombres4 {
+    .bombis .clavel .nombres4 {
       font-size: 20px; }
-    .cajaBombis .clavel .precios4 {
+    .bombis .clavel .precios4 {
       font-size: 18px; }
-    .cajaBombis .clavel #boton15 {
+    .bombis .clavel #boton15 {
       background-color: #625261;
       border-color: #625261; }
 
@@ -473,6 +483,8 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
+  .promoPijamas1 .cajaPromo:hover {
+    transform: scale(1, 1.1); }
   .promoPijamas1 .fotosPromo {
     width: 500px;
     height: 600px; }
@@ -501,6 +513,8 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 60px; }
+  .promoPijamas2 .cajaPromo:hover {
+    transform: scale(1, 1.1); }
   .promoPijamas2 .fotosPromo {
     width: 500px;
     height: 600px; }
@@ -526,19 +540,28 @@ footer {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 70px; }
+  margin-top: 90px; }
 
 .cajaContacto {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
   margin-top: 50px; }
   .cajaContacto #formulario {
     text-align: center; }
+  .cajaContacto .mapa {
+    width: 400px;
+    height: 500px; }
 
 .grid {
   display: grid;
   align-content: center;
   justify-items: center;
+  border: double 5px #625261;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 10px;
   grid-row-gap: 20px;
   grid-template-areas: "sucursal1 sucursal2" "direccion1 direccion2" "telefono1 telefono2" "horario1 horario2"; }
   .grid #sucursal1 {
@@ -658,12 +681,12 @@ footer {
       width: 300px;
       height: 500px;
       margin-top: 30px; }
-  .cajaBombis {
+  .bombis {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center; }
-    .cajaBombis .fotosBombis {
+    .bombis .fotosBombis {
       width: 300px;
       height: 500px;
       margin-top: 30px; }
