@@ -120,6 +120,7 @@ $color-blanco: white;
 
 .menu {
     text-align: center;
+    margin-top: 50px;
 
     .secciones {
         text-decoration-line: none;
@@ -139,35 +140,34 @@ $color-blanco: white;
     }
 }
 
- .cajaCarrito {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: flex-end;
-        transform: translate(-100px, 0px);
+.cajaCarrito {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    transform: translate(-100px, 0px);
 
-        #carrito {
-            text-align: right;
-            margin-right: 60px;
-    
-            .fotoCarrito {
-                width: 40px;
-                height: 40px;
-                transform: translate(40px, 0px);
-            }
-        }
-        
-    
-        #botonCarrito {
-            transform: none;
-            color: $color-aqua;
-            border-color: $color-aqua;
-            width: 70px;
-            margin: none;
-        }
+    #carrito {
+        text-align: right;
+        margin-right: 60px;
 
+        .fotoCarrito {
+            width: 40px;
+            height: 40px;
+            transform: translate(40px, 0px);
+        }
     }
+    
+
+    #botonCarrito {
+        transform: none;
+        color: $color-aqua;
+        border-color: $color-aqua;
+        width: 70px;
+        margin: none;
+    }
+}
 
 #barra {
     margin-left: 100px;
@@ -328,7 +328,6 @@ footer {
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 0px;
         }
 
         .precios1 {
@@ -347,7 +346,6 @@ footer {
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 0px;
         }
 
         .precios1 {
@@ -365,7 +363,6 @@ footer {
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 0px;
         }
 
         .precios1 {
@@ -383,7 +380,6 @@ footer {
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 0px;
         }
 
         .precios1 {
@@ -412,6 +408,7 @@ footer {
     .fotosConjuntos {
         width: 300px;
         height: 500px;
+        margin-top: 50px;
     }
 
     .hortensia {
@@ -419,7 +416,6 @@ footer {
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 0px;
         }
 
         .precios1 {
@@ -437,7 +433,6 @@ footer {
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 0px;
         }
 
         .precios1 {
@@ -455,7 +450,6 @@ footer {
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 0px;
         }
 
         .precios1 {
@@ -473,7 +467,6 @@ footer {
 
         .nombres1 {
             font-size: 20px;
-            margin-right: 0px;
         }
 
         .precios1 {
@@ -595,6 +588,7 @@ footer {
     .fotosPijamas {
         width: 400px;
         height: 600px;
+        margin-top: 50px;
     }
 
     .peonia {
@@ -926,8 +920,8 @@ footer {
             margin: 0px;
     
             #logo {
-                width: 50px;
-                height: 50px;
+                width: 45px;
+                height: 45px;
                 margin: 0px
             }
         }
@@ -948,8 +942,8 @@ footer {
             margin-left: 0px;
     
             #logo {
-                width: 50px;
-                height: 50px;
+                width: 45px;
+                height: 45px;
                 margin: 0px;
             }
         }
@@ -971,6 +965,7 @@ footer {
         align-items: flex-end;
         transform: none;
         margin-top: 15px;
+        margin-right: 20px;
 
         #carrito {
             text-align: right;
@@ -1002,164 +997,9 @@ footer {
     }
 
     #botonBarra {
-        transform: translate(50px, -45px);
+        transform: translate(40px, -45px);
         height: 30px;
-    }
-
-    /*Conjuntos*/
-
-    .conjuntos1 {
-       display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
-       justify-content: center;
-
-       .fotosConjuntos {
-          width: 300px;
-          height: 500px;
-          margin-top: 30px;
-        }
-
-    }
-
-    .conjuntos2 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
- 
-        .fotosConjuntos {
-           width: 300px;
-           height: 500px;
-           margin-top: 30px;
-        }
-    }
-
-    /*Pijamas*/
-
-    .pijamas1 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        .fotosPijamas {
-            width: 300px;
-            height: 500px;
-            margin-top: 30px;
-        }
-    }
-
-    .pijamas2 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        .fotosPijamas {
-            width: 300px;
-            height: 500px;
-            margin-top: 30px;
-        }
-    }
-
-    /*Sale*/
-
-    .bombis {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        .fotosBombis {
-            width: 300px;
-            height: 500px;
-            margin-top: 30px;
-        }
-    }
-
-    .promoPijamas1 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        .fotosPromo {
-            width: 300px;
-            height: 400px;
-            margin-top: 30px;
-        }
-    }
-
-    .promoPijamas2 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 30px;
-
-        .fotosPromo {
-            width: 300px;
-            height: 400px;
-        }
-    }
-
-    /*Sucursales*/
-
-    .sucursales {
-        font-family: 'Oswald', sans-serif;
-        color: $color-lila;
-        letter-spacing: none;
-        font-size: 20px;
-    }
-
-    .grid {
-        display: grid;
-        align-content:center;
-        justify-items: center;
-        grid-row-gap: 20px;
-        grid-template-areas: 
-        "sucursal1"
-        "direccion1"
-        "telefono1"
-        "horario1"
-        "sucursal2"
-        "direccion2"
-        "telefono2"
-        "horario2";
-    
-        #sucursal1 {
-            grid-area: sucursal1;
-        }
-        
-        #sucursal2 {
-            grid-area: sucursal2;
-        }
-        
-        #direccion1 {
-            grid-area: direccion1;
-        }
-        
-        #direccion2 {
-            grid-area: direccion2;
-        }
-        
-        #telefono1 {
-            grid-area: telefono1;
-        }
-        
-        #telefono2 {
-            grid-area: telefono2;
-        }
-        
-        #horario1 {
-            grid-area: horario1;
-        }
-        
-        #horario2 {
-            grid-area: horario2;
-        }
-        
+        text-align: center;
     }
 
     #cajaFooter {
@@ -1253,6 +1093,162 @@ footer {
             }
         }
     }
+
+    /*Conjuntos*/
+
+    .conjuntos1 {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: center;
+
+       .fotosConjuntos {
+          width: 300px;
+          height: 500px;
+          margin-top: 50px;
+        }
+
+    }
+
+    .conjuntos2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+ 
+        .fotosConjuntos {
+           width: 300px;
+           height: 500px;
+           margin-top: 50px;
+        }
+    }
+
+    /*Pijamas*/
+
+    .pijamas1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .fotosPijamas {
+            width: 300px;
+            height: 500px;
+            margin-top: 50px;
+        }
+    }
+
+    .pijamas2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .fotosPijamas {
+            width: 300px;
+            height: 500px;
+            margin-top: 50px;
+        }
+    }
+
+    /*Sale*/
+
+    .bombis {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .fotosBombis {
+            width: 300px;
+            height: 500px;
+            margin-top: 50px;
+        }
+    }
+
+    .promoPijamas1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .fotosPromo {
+            width: 300px;
+            height: 400px;
+            margin-top: 50px;
+        }
+    }
+
+    .promoPijamas2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+
+        .fotosPromo {
+            width: 300px;
+            height: 400px;
+        }
+    }
+
+    /*Sucursales*/
+
+    .sucursales {
+        font-family: 'Oswald', sans-serif;
+        color: $color-lila;
+        letter-spacing: none;
+        font-size: 20px;
+    }
+
+    .grid {
+        display: grid;
+        align-content:center;
+        justify-items: center;
+        grid-row-gap: 20px;
+        grid-template-areas: 
+        "sucursal1"
+        "direccion1"
+        "telefono1"
+        "horario1"
+        "sucursal2"
+        "direccion2"
+        "telefono2"
+        "horario2";
+    
+        #sucursal1 {
+            grid-area: sucursal1;
+        }
+        
+        #sucursal2 {
+            grid-area: sucursal2;
+        }
+        
+        #direccion1 {
+            grid-area: direccion1;
+        }
+        
+        #direccion2 {
+            grid-area: direccion2;
+        }
+        
+        #telefono1 {
+            grid-area: telefono1;
+        }
+        
+        #telefono2 {
+            grid-area: telefono2;
+        }
+        
+        #horario1 {
+            grid-area: horario1;
+        }
+        
+        #horario2 {
+            grid-area: horario2;
+        }
+        
+    }
 }
 
 /*Version tablet*/
@@ -1262,9 +1258,13 @@ footer {
     .header {
         height: 12vh;
     
+    
         #header__envios {
             word-spacing: 15px;
             font-size: 15px;
+            margin-left: 10px;
+            text-align: center;
+
         }
         
         #header__logo {
@@ -1273,12 +1273,16 @@ footer {
                 width: 45px;
                 height: 45px;
                 margin-top: 0px;
+                margin-left: 10px;
+                margin-right: 10px;
             }
         }
         
         #header__cuotas {
             word-spacing: 15px;
             font-size: 15px;
+            margin-right: 10px;
+            text-align: center;
         }
     }
     
@@ -1288,6 +1292,8 @@ footer {
         #header__envios {
             word-spacing: 15px;
             font-size: 15px;
+            margin-left: 10px;
+            text-align: center;
         }
         
         #header__logo {
@@ -1296,12 +1302,16 @@ footer {
                 width: 45px;
                 height: 45px;
                 margin-top: 0px;
+                margin-left: 10px;
+                margin-right: 10px;
             }
         }
         
         #header__cuotas {
             word-spacing: 15px;
             font-size: 15px;
+            margin-right: 10px;
+            text-align: center;
         }
     
     }
@@ -1313,6 +1323,8 @@ footer {
         justify-content: center;
         align-items: flex-end;
         transform: none;
+        margin-top: 50px;
+        margin-right: 20px;
 
         #carrito {
             text-align: right;
@@ -1344,5 +1356,193 @@ footer {
         transform: translate(-70px, -70px);
     }
 
+    .menu {
+        text-align: center;
+        margin-top: 50px;
+        padding-inline-start: 0px;
+    
+        .secciones {
+            text-decoration-line: none;
+            word-spacing: 50px;
+            font-family:'Montserrat', sans-serif;
+            font-weight: bold;
+            color: $color-aqua;
+            &:hover {
+                color: $color-lila;
+            }
+        }
+        
+        .categorias {
+            display:inline; 
+            padding-left:2px; 
+            padding-right:2px;
+        }
+    }
+
+    /*Conjuntos*/
+
+    .conjuntos1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+ 
+        .fotosConjuntos {
+           width: 300px;
+           height: 500px;
+           margin-top: 50px;
+        }
+    }
+
+    .conjuntos2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+ 
+        .fotosConjuntos {
+           width: 300px;
+           height: 500px;
+           margin-top: 50px;
+     
+        }
+    }
+
+    /*Pijamas*/
+
+    .pijamas1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .fotosPijamas {
+            width: 300px;
+            height: 500px;
+            margin-top: 50px;
+        }
+    }
+
+    .pijamas2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .fotosPijamas {
+            width: 300px;
+            height: 500px;
+            margin-top: 50px;
+        }
+    }
+
+    /*Sale*/
+
+    .bombis {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .fotosBombis {
+            width: 300px;
+            height: 500px;
+            margin-top: 50px;
+        }
+    }
+
+    .promoPijamas1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .fotosPromo {
+            width: 300px;
+            height: 400px;
+            margin-top: 50px;
+        }
+    }
+
+    .promoPijamas2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+
+        .fotosPromo {
+            width: 300px;
+            height: 400px;
+        }
+    }
+
+    /*Sucursales*/
+    .grid {
+        display: grid;
+        align-content:center;
+        justify-items: center;
+        grid-row-gap: 20px;
+        grid-template-areas: 
+        "sucursal1"
+        "direccion1"
+        "telefono1"
+        "horario1"
+        "sucursal2"
+        "direccion2"
+        "telefono2"
+        "horario2";
+    
+        #sucursal1 {
+            grid-area: sucursal1;
+        }
+        
+        #sucursal2 {
+            grid-area: sucursal2;
+        }
+        
+        #direccion1 {
+            grid-area: direccion1;
+        }
+        
+        #direccion2 {
+            grid-area: direccion2;
+        }
+        
+        #telefono1 {
+            grid-area: telefono1;
+        }
+        
+        #telefono2 {
+            grid-area: telefono2;
+        }
+        
+        #horario1 {
+            grid-area: horario1;
+        }
+        
+        #horario2 {
+            grid-area: horario2;
+        }
+        
+    }
+
+    .cajaContacto {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        margin-top: 50px;
+        
+    
+        #formulario {
+            text-align: center;
+        }
+    
+        .mapa {
+            width: 250px;
+            height: 350px;
+        }
+    }
 
 }

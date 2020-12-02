@@ -99,7 +99,8 @@
     color: white; } }
 
 .menu {
-  text-align: center; }
+  text-align: center;
+  margin-top: 50px; }
   .menu .secciones {
     text-decoration-line: none;
     word-spacing: 50px;
@@ -247,8 +248,7 @@ footer {
   .conjuntos1 .orquidea {
     text-align: center; }
     .conjuntos1 .orquidea .nombres1 {
-      font-size: 20px;
-      margin-right: 0px; }
+      font-size: 20px; }
     .conjuntos1 .orquidea .precios1 {
       font-size: 18px; }
     .conjuntos1 .orquidea #boton1 {
@@ -257,8 +257,7 @@ footer {
   .conjuntos1 .amapola {
     text-align: center; }
     .conjuntos1 .amapola .nombres1 {
-      font-size: 20px;
-      margin-right: 0px; }
+      font-size: 20px; }
     .conjuntos1 .amapola .precios1 {
       font-size: 18px; }
     .conjuntos1 .amapola #boton2 {
@@ -267,8 +266,7 @@ footer {
   .conjuntos1 .jazmin {
     text-align: center; }
     .conjuntos1 .jazmin .nombres1 {
-      font-size: 20px;
-      margin-right: 0px; }
+      font-size: 20px; }
     .conjuntos1 .jazmin .precios1 {
       font-size: 18px; }
     .conjuntos1 .jazmin #boton3 {
@@ -277,8 +275,7 @@ footer {
   .conjuntos1 .dalia {
     text-align: center; }
     .conjuntos1 .dalia .nombres1 {
-      font-size: 20px;
-      margin-right: 0px; }
+      font-size: 20px; }
     .conjuntos1 .dalia .precios1 {
       font-size: 18px; }
     .conjuntos1 .dalia #boton4 {
@@ -294,12 +291,12 @@ footer {
     transform: scale(1, 1.1); }
   .conjuntos2 .fotosConjuntos {
     width: 300px;
-    height: 500px; }
+    height: 500px;
+    margin-top: 50px; }
   .conjuntos2 .hortensia {
     text-align: center; }
     .conjuntos2 .hortensia .nombres1 {
-      font-size: 20px;
-      margin-right: 0px; }
+      font-size: 20px; }
     .conjuntos2 .hortensia .precios1 {
       font-size: 18px; }
     .conjuntos2 .hortensia #boton5 {
@@ -308,8 +305,7 @@ footer {
   .conjuntos2 .iris {
     text-align: center; }
     .conjuntos2 .iris .nombres1 {
-      font-size: 20px;
-      margin-right: 0px; }
+      font-size: 20px; }
     .conjuntos2 .iris .precios1 {
       font-size: 18px; }
     .conjuntos2 .iris #boton6 {
@@ -318,8 +314,7 @@ footer {
   .conjuntos2 .girasol {
     text-align: center; }
     .conjuntos2 .girasol .nombres1 {
-      font-size: 20px;
-      margin-right: 0px; }
+      font-size: 20px; }
     .conjuntos2 .girasol .precios1 {
       font-size: 18px; }
     .conjuntos2 .girasol #boton7 {
@@ -328,8 +323,7 @@ footer {
   .conjuntos2 .narciso {
     text-align: center; }
     .conjuntos2 .narciso .nombres1 {
-      font-size: 20px;
-      margin-right: 0px; }
+      font-size: 20px; }
     .conjuntos2 .narciso .precios1 {
       font-size: 18px; }
     .conjuntos2 .narciso #boton8 {
@@ -395,7 +389,8 @@ footer {
     transform: scale(1, 1.1); }
   .pijamas2 .fotosPijamas {
     width: 400px;
-    height: 600px; }
+    height: 600px;
+    margin-top: 50px; }
   .pijamas2 .peonia {
     text-align: center; }
     .pijamas2 .peonia .nombres2 {
@@ -597,8 +592,8 @@ footer {
       text-align: center;
       margin: 0px; }
       .header #header__logo #logo {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         margin: 0px; }
   .header2 {
     color: white;
@@ -612,8 +607,8 @@ footer {
       text-align: center;
       margin-left: 0px; }
       .header2 #header__logo #logo {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         margin: 0px; }
   .bg-lila {
     color: #835858;
@@ -625,7 +620,8 @@ footer {
     justify-content: center;
     align-items: flex-end;
     transform: none;
-    margin-top: 15px; }
+    margin-top: 15px;
+    margin-right: 20px; }
     .cajaCarrito #carrito {
       text-align: right;
       margin-right: 60px; }
@@ -645,102 +641,9 @@ footer {
     width: 120px;
     height: 30px; }
   #botonBarra {
-    transform: translate(50px, -45px);
-    height: 30px; }
-  /*Conjuntos*/
-  .conjuntos1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center; }
-    .conjuntos1 .fotosConjuntos {
-      width: 300px;
-      height: 500px;
-      margin-top: 30px; }
-  .conjuntos2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center; }
-    .conjuntos2 .fotosConjuntos {
-      width: 300px;
-      height: 500px;
-      margin-top: 30px; }
-  /*Pijamas*/
-  .pijamas1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center; }
-    .pijamas1 .fotosPijamas {
-      width: 300px;
-      height: 500px;
-      margin-top: 30px; }
-  .pijamas2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center; }
-    .pijamas2 .fotosPijamas {
-      width: 300px;
-      height: 500px;
-      margin-top: 30px; }
-  /*Sale*/
-  .bombis {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center; }
-    .bombis .fotosBombis {
-      width: 300px;
-      height: 500px;
-      margin-top: 30px; }
-  .promoPijamas1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center; }
-    .promoPijamas1 .fotosPromo {
-      width: 300px;
-      height: 400px;
-      margin-top: 30px; }
-  .promoPijamas2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 30px; }
-    .promoPijamas2 .fotosPromo {
-      width: 300px;
-      height: 400px; }
-  /*Sucursales*/
-  .sucursales {
-    font-family: 'Oswald', sans-serif;
-    color: #835858;
-    letter-spacing: none;
-    font-size: 20px; }
-  .grid {
-    display: grid;
-    align-content: center;
-    justify-items: center;
-    grid-row-gap: 20px;
-    grid-template-areas: "sucursal1" "direccion1" "telefono1" "horario1" "sucursal2" "direccion2" "telefono2" "horario2"; }
-    .grid #sucursal1 {
-      grid-area: sucursal1; }
-    .grid #sucursal2 {
-      grid-area: sucursal2; }
-    .grid #direccion1 {
-      grid-area: direccion1; }
-    .grid #direccion2 {
-      grid-area: direccion2; }
-    .grid #telefono1 {
-      grid-area: telefono1; }
-    .grid #telefono2 {
-      grid-area: telefono2; }
-    .grid #horario1 {
-      grid-area: horario1; }
-    .grid #horario2 {
-      grid-area: horario2; }
+    transform: translate(40px, -45px);
+    height: 30px;
+    text-align: center; }
   #cajaFooter {
     display: flex;
     flex-direction: column;
@@ -806,7 +709,101 @@ footer {
             height: 50px; }
           #cajaFooter .cajaRedes .fotosFooter .fotosRedes #twitter {
             width: 50px;
-            height: 50px; } }
+            height: 50px; }
+  /*Conjuntos*/
+  .conjuntos1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .conjuntos1 .fotosConjuntos {
+      width: 300px;
+      height: 500px;
+      margin-top: 50px; }
+  .conjuntos2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .conjuntos2 .fotosConjuntos {
+      width: 300px;
+      height: 500px;
+      margin-top: 50px; }
+  /*Pijamas*/
+  .pijamas1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .pijamas1 .fotosPijamas {
+      width: 300px;
+      height: 500px;
+      margin-top: 50px; }
+  .pijamas2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .pijamas2 .fotosPijamas {
+      width: 300px;
+      height: 500px;
+      margin-top: 50px; }
+  /*Sale*/
+  .bombis {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .bombis .fotosBombis {
+      width: 300px;
+      height: 500px;
+      margin-top: 50px; }
+  .promoPijamas1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .promoPijamas1 .fotosPromo {
+      width: 300px;
+      height: 400px;
+      margin-top: 50px; }
+  .promoPijamas2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px; }
+    .promoPijamas2 .fotosPromo {
+      width: 300px;
+      height: 400px; }
+  /*Sucursales*/
+  .sucursales {
+    font-family: 'Oswald', sans-serif;
+    color: #835858;
+    letter-spacing: none;
+    font-size: 20px; }
+  .grid {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    grid-row-gap: 20px;
+    grid-template-areas: "sucursal1" "direccion1" "telefono1" "horario1" "sucursal2" "direccion2" "telefono2" "horario2"; }
+    .grid #sucursal1 {
+      grid-area: sucursal1; }
+    .grid #sucursal2 {
+      grid-area: sucursal2; }
+    .grid #direccion1 {
+      grid-area: direccion1; }
+    .grid #direccion2 {
+      grid-area: direccion2; }
+    .grid #telefono1 {
+      grid-area: telefono1; }
+    .grid #telefono2 {
+      grid-area: telefono2; }
+    .grid #horario1 {
+      grid-area: horario1; }
+    .grid #horario2 {
+      grid-area: horario2; } }
 
 /*Version tablet*/
 @media (min-width: 570px) and (max-width: 900px) {
@@ -814,33 +811,47 @@ footer {
     height: 12vh; }
     .header #header__envios {
       word-spacing: 15px;
-      font-size: 15px; }
+      font-size: 15px;
+      margin-left: 10px;
+      text-align: center; }
     .header #header__logo #logo {
       width: 45px;
       height: 45px;
-      margin-top: 0px; }
+      margin-top: 0px;
+      margin-left: 10px;
+      margin-right: 10px; }
     .header #header__cuotas {
       word-spacing: 15px;
-      font-size: 15px; }
+      font-size: 15px;
+      margin-right: 10px;
+      text-align: center; }
   .header2 {
     height: 12vh; }
     .header2 #header__envios {
       word-spacing: 15px;
-      font-size: 15px; }
+      font-size: 15px;
+      margin-left: 10px;
+      text-align: center; }
     .header2 #header__logo #logo {
       width: 45px;
       height: 45px;
-      margin-top: 0px; }
+      margin-top: 0px;
+      margin-left: 10px;
+      margin-right: 10px; }
     .header2 #header__cuotas {
       word-spacing: 15px;
-      font-size: 15px; }
+      font-size: 15px;
+      margin-right: 10px;
+      text-align: center; }
   .cajaCarrito {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-end;
-    transform: none; }
+    transform: none;
+    margin-top: 50px;
+    margin-right: 20px; }
     .cajaCarrito #carrito {
       text-align: right;
       margin-right: 60px; }
@@ -857,4 +868,120 @@ footer {
   #barra {
     transform: translate(-70px, -70px); }
   #botonBarra {
-    transform: translate(-70px, -70px); } }
+    transform: translate(-70px, -70px); }
+  .menu {
+    text-align: center;
+    margin-top: 50px;
+    padding-inline-start: 0px; }
+    .menu .secciones {
+      text-decoration-line: none;
+      word-spacing: 50px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      color: #89beb3; }
+      .menu .secciones:hover {
+        color: #835858; }
+    .menu .categorias {
+      display: inline;
+      padding-left: 2px;
+      padding-right: 2px; }
+  /*Conjuntos*/
+  .conjuntos1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .conjuntos1 .fotosConjuntos {
+      width: 300px;
+      height: 500px;
+      margin-top: 50px; }
+  .conjuntos2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .conjuntos2 .fotosConjuntos {
+      width: 300px;
+      height: 500px;
+      margin-top: 50px; }
+  /*Pijamas*/
+  .pijamas1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .pijamas1 .fotosPijamas {
+      width: 300px;
+      height: 500px;
+      margin-top: 50px; }
+  .pijamas2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .pijamas2 .fotosPijamas {
+      width: 300px;
+      height: 500px;
+      margin-top: 50px; }
+  /*Sale*/
+  .bombis {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .bombis .fotosBombis {
+      width: 300px;
+      height: 500px;
+      margin-top: 50px; }
+  .promoPijamas1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .promoPijamas1 .fotosPromo {
+      width: 300px;
+      height: 400px;
+      margin-top: 50px; }
+  .promoPijamas2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px; }
+    .promoPijamas2 .fotosPromo {
+      width: 300px;
+      height: 400px; }
+  /*Sucursales*/
+  .grid {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    grid-row-gap: 20px;
+    grid-template-areas: "sucursal1" "direccion1" "telefono1" "horario1" "sucursal2" "direccion2" "telefono2" "horario2"; }
+    .grid #sucursal1 {
+      grid-area: sucursal1; }
+    .grid #sucursal2 {
+      grid-area: sucursal2; }
+    .grid #direccion1 {
+      grid-area: direccion1; }
+    .grid #direccion2 {
+      grid-area: direccion2; }
+    .grid #telefono1 {
+      grid-area: telefono1; }
+    .grid #telefono2 {
+      grid-area: telefono2; }
+    .grid #horario1 {
+      grid-area: horario1; }
+    .grid #horario2 {
+      grid-area: horario2; }
+  .cajaContacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 50px; }
+    .cajaContacto #formulario {
+      text-align: center; }
+    .cajaContacto .mapa {
+      width: 250px;
+      height: 350px; } }
