@@ -158,62 +158,64 @@ footer {
   background-color: #835858;
   margin-top: 90px; }
 
-#footerEscritorio {
+#cajaFooter {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
-  align-items: baseline;
-  margin-left: 20px; }
-  #footerEscritorio .cajaAtencion {
+  align-items: baseline; }
+  #cajaFooter .cajaAtencion {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: flex-start; }
-    #footerEscritorio .cajaAtencion .telefono {
+    align-content: center; }
+    #cajaFooter .cajaAtencion .telefono {
       color: white;
       font-weight: bold;
-      text-decoration: underline; }
-    #footerEscritorio .cajaAtencion .infoFooter1 {
+      font-size: 20px;
+      text-transform: uppercase; }
+    #cajaFooter .cajaAtencion .infoFooter1 {
       margin: none;
       color: white; }
-    #footerEscritorio .cajaAtencion .infoFooter2 {
+    #cajaFooter .cajaAtencion .infoFooter2 {
       margin: none;
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
       align-items: center;
       color: white; }
-      #footerEscritorio .cajaAtencion .infoFooter2 #fotoTelefono {
+      #cajaFooter .cajaAtencion .infoFooter2 #fotoTelefono {
         display: inline;
         width: 30px;
         height: 30px;
         margin-right: 5px;
         margin-bottom: 3px; }
-  #footerEscritorio .cajaRedes {
+  #cajaFooter .cajaRedes {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-content: center;
+    align-items: center;
     margin-top: 10px; }
-    #footerEscritorio .cajaRedes .redes {
+    #cajaFooter .cajaRedes .redes {
       color: white;
       font-weight: bold;
-      text-decoration: underline; }
-    #footerEscritorio .cajaRedes .fotosFooter {
+      text-transform: uppercase;
+      font-size: 20px; }
+    #cajaFooter .cajaRedes .fotosFooter {
       display: inline;
       padding: 0px; }
-      #footerEscritorio .cajaRedes .fotosFooter .fotosRedes {
+      #cajaFooter .cajaRedes .fotosFooter .fotosRedes {
         display: inline;
         padding: 0px; }
-        #footerEscritorio .cajaRedes .fotosFooter .fotosRedes #facebook {
+        #cajaFooter .cajaRedes .fotosFooter .fotosRedes #facebook {
           width: 50px;
           height: 50px;
           margin: 0px; }
-        #footerEscritorio .cajaRedes .fotosFooter .fotosRedes #instagram {
+        #cajaFooter .cajaRedes .fotosFooter .fotosRedes #instagram {
           width: 50px;
           height: 50px; }
-        #footerEscritorio .cajaRedes .fotosFooter .fotosRedes #twitter {
+        #cajaFooter .cajaRedes .fotosFooter .fotosRedes #twitter {
           width: 50px;
           height: 50px; }
 
@@ -645,6 +647,7 @@ footer {
   #botonBarra {
     transform: translate(50px, -45px);
     height: 30px; }
+  /*Conjuntos*/
   .conjuntos1 {
     display: flex;
     flex-direction: row;
@@ -663,6 +666,7 @@ footer {
       width: 300px;
       height: 500px;
       margin-top: 30px; }
+  /*Pijamas*/
   .pijamas1 {
     display: flex;
     flex-direction: row;
@@ -681,6 +685,7 @@ footer {
       width: 300px;
       height: 500px;
       margin-top: 30px; }
+  /*Sale*/
   .bombis {
     display: flex;
     flex-direction: row;
@@ -708,6 +713,7 @@ footer {
     .promoPijamas2 .fotosPromo {
       width: 300px;
       height: 400px; }
+  /*Sucursales*/
   .sucursales {
     font-family: 'Oswald', sans-serif;
     color: #835858;
@@ -735,68 +741,70 @@ footer {
       grid-area: horario1; }
     .grid #horario2 {
       grid-area: horario2; }
-  #footerMobile {
+  #cajaFooter {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
     padding: 0px;
-    margin-left: 20px; }
-    #footerMobile .cajaAtencion {
+    margin-left: 20px;
+    justify-content: none;
+    align-items: none; }
+    #cajaFooter .cajaAtencion {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       align-content: flex-start; }
-      #footerMobile .cajaAtencion .telefono {
+      #cajaFooter .cajaAtencion .telefono {
         color: white;
         font-weight: bold;
         text-decoration: underline; }
-      #footerMobile .cajaAtencion .infoFooter1 {
+      #cajaFooter .cajaAtencion .infoFooter1 {
         margin: none;
         color: white; }
-      #footerMobile .cajaAtencion .infoFooter2 {
+      #cajaFooter .cajaAtencion .infoFooter2 {
         margin: none;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         align-items: center;
         color: white; }
-        #footerMobile .cajaAtencion .infoFooter2 #fotoTelefono {
+        #cajaFooter .cajaAtencion .infoFooter2 #fotoTelefono {
           display: inline;
           width: 30px;
           height: 30px;
           margin-right: 5px;
           margin-bottom: 3px; }
-    #footerMobile .cajaRedes {
+    #cajaFooter .cajaRedes {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       align-content: flex-start;
       padding: 0px;
       margin-top: 10px; }
-      #footerMobile .cajaRedes .redes {
+      #cajaFooter .cajaRedes .redes {
         text-align: none;
         color: white;
         margin: 0px;
         font-weight: bold;
         text-decoration: underline;
         display: inline-block; }
-      #footerMobile .cajaRedes .fotosFooter {
+      #cajaFooter .cajaRedes .fotosFooter {
         text-align: none;
         margin: 0px;
         display: inline;
         padding: 0px; }
-        #footerMobile .cajaRedes .fotosFooter .fotosRedes {
+        #cajaFooter .cajaRedes .fotosFooter .fotosRedes {
           display: inline;
           padding: 0px; }
-          #footerMobile .cajaRedes .fotosFooter .fotosRedes #facebook {
+          #cajaFooter .cajaRedes .fotosFooter .fotosRedes #facebook {
             width: 50px;
             height: 50px;
             margin: 0px; }
-          #footerMobile .cajaRedes .fotosFooter .fotosRedes #instagram {
+          #cajaFooter .cajaRedes .fotosFooter .fotosRedes #instagram {
             width: 50px;
             height: 50px; }
-          #footerMobile .cajaRedes .fotosFooter .fotosRedes #twitter {
+          #cajaFooter .cajaRedes .fotosFooter .fotosRedes #twitter {
             width: 50px;
             height: 50px; } }
 

@@ -199,24 +199,24 @@ footer {
     margin-top: 90px;
 }
 
-#footerEscritorio {
+#cajaFooter {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: baseline;
-    margin-left: 20px;
     
     .cajaAtencion {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        align-content: flex-start;
+        align-content: center;
 
         .telefono {
             color: $color-blanco;
             font-weight: bold;
-            text-decoration: underline;
+            font-size: 20px;
+            text-transform: uppercase;
         }
 
         .infoFooter1 {
@@ -246,13 +246,15 @@ footer {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        align-content: flex-start;
+        align-content: center;
+        align-items: center;
         margin-top: 10px;
 
         .redes {
             color: $color-blanco;
             font-weight: bold;
-            text-decoration: underline;
+            text-transform: uppercase;
+            font-size: 20px;
         }
         
         .fotosFooter {
@@ -1004,6 +1006,8 @@ footer {
         height: 30px;
     }
 
+    /*Conjuntos*/
+
     .conjuntos1 {
        display: flex;
        flex-direction: row;
@@ -1031,6 +1035,8 @@ footer {
         }
     }
 
+    /*Pijamas*/
+
     .pijamas1 {
         display: flex;
         flex-direction: row;
@@ -1056,6 +1062,8 @@ footer {
             margin-top: 30px;
         }
     }
+
+    /*Sale*/
 
     .bombis {
         display: flex;
@@ -1095,6 +1103,8 @@ footer {
             height: 400px;
         }
     }
+
+    /*Sucursales*/
 
     .sucursales {
         font-family: 'Oswald', sans-serif;
@@ -1152,13 +1162,15 @@ footer {
         
     }
 
-    #footerMobile {
+    #cajaFooter {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: flex-start;
         padding: 0px;
         margin-left: 20px;
+        justify-content: none;
+        align-items: none;
 
         .cajaAtencion {
             display: flex;
@@ -1270,7 +1282,6 @@ footer {
         }
     }
     
-    
     .header2 {
         height: 12vh;
 
@@ -1332,4 +1343,6 @@ footer {
     #botonBarra {
         transform: translate(-70px, -70px);
     }
+
+
 }
