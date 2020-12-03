@@ -3,7 +3,7 @@
 .header {
   color: white;
   background-color: #89beb3;
-  height: 10vh;
+  height: 12vh;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -52,7 +52,7 @@
 .header2 {
   color: white;
   background-color: #625261;
-  height: 10vh;
+  height: 12vh;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -98,9 +98,16 @@
   100% {
     color: white; } }
 
+nav {
+  position: sticky;
+  top: 0; }
+
 .menu {
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 50px;
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 20px; }
   .menu .secciones {
     text-decoration-line: none;
     word-spacing: 50px;
