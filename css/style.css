@@ -697,8 +697,7 @@ footer {
       align-content: flex-start; }
       #cajaFooter .cajaAtencion .telefono {
         color: white;
-        font-weight: bold;
-        text-decoration: underline; }
+        font-weight: bold; }
       #cajaFooter .cajaAtencion .infoFooter1 {
         margin: none;
         color: white; }
@@ -727,7 +726,6 @@ footer {
         color: white;
         margin: 0px;
         font-weight: bold;
-        text-decoration: underline;
         display: inline-block; }
       #cajaFooter .cajaRedes .fotosFooter {
         text-align: none;
