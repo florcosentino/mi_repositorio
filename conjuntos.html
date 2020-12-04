@@ -46,8 +46,23 @@
       </nav>
       <section class="cajaCarrito">
          <div id="carrito"> <img class="fotoCarrito" src="Imagenes/carrito3.png" alt="carrito"> </div>
-         <button id="botonCarrito" class="btn btn-outline-success my-2 my-sm-0" type="submit"> Carrito </button>
+         <button id="botonCarrito" class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal"> Carrito </button>
       </section>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Carrito</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                </button>
+             </div>
+             <div class="modal-body">
+                No hay productos en tu carrito
+             </div>
+           </div>
+         </div>
+      </div>
       <form class="form-inline">
         <input id="barra" class="form-control mr-sm-2" type="search" placeholder="Bucar" aria-label="Search">
         <button id="botonBarra" class="btn btn-outline-success my-2 my-sm-0" type="submit">Ir</button>
