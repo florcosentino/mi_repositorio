@@ -217,6 +217,7 @@ nav {
 footer {
     background-color: $color-lila;
     margin-top: 90px;
+    padding-bottom: 20px;
 }
 
 #cajaFooter {
@@ -501,6 +502,11 @@ footer {
 
 }
 
+#botonTalle {
+    background-color: $color-aqua;
+    border-color: $color-aqua;
+}
+
 .talles {
     text-align: center;
 
@@ -647,6 +653,11 @@ footer {
         }
     }
 
+}
+
+#botonTalle2 {
+    background-color: $color-lila;
+    border-color: $color-lila;
 }
 
 
@@ -835,6 +846,11 @@ footer {
             border-color: $color-violeta;
         }
     }
+}
+
+#botonTalle3 {
+    background-color: $color-violeta;
+    border-color: $color-violeta;
 }
 
 
@@ -1035,7 +1051,7 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
         align-content: flex-start;
-        padding: 0px;
+        padding: 20px;
         margin-left: 20px;
         justify-content: none;
         align-items: none;

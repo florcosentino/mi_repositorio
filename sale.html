@@ -75,7 +75,7 @@
              <div class="laurel">
                  <p class="nombres4">Combo Laurel</p>
                  <p class="precios4">¡A solo $900!</p>
-                 <button id="boton13"  class="btn btn-success" type="button">Comprar</button>  
+                 <button id="boton13"  class="btn btn-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Comprar</button>  
              </div> 
           </div>
           <div class="cajaBombis">
@@ -83,7 +83,7 @@
              <div class="margarita">
                  <p class="nombres4">Combo Margarita</p>
                  <p class="precios4">¡A solo $900!</p>
-                 <button id="boton14" class="btn btn-success" type="button">Comprar</button>
+                 <button id="boton14" class="btn btn-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Comprar</button>
              </div>
           </div>
           <div class="cajaBombis">
@@ -91,7 +91,7 @@
              <div class="clavel">
                  <p class="nombres4">Combo Clavel</p>
                  <p class="precios4">¡A solo $900!</p>
-                 <button id="boton15" class="btn btn-success" type="button">Comprar</button>
+                 <button id="boton15" class="btn btn-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Comprar</button>
              </div>
           </div>
        </section>
@@ -105,7 +105,7 @@
               <div class="azahar">
                  <p class="nombres3">Pijama Azahar</p>
                  <p class="precios3">$2200</p>
-                 <button id="boton16" class="btn btn-success" type="button">Comprar</button>
+                 <button id="boton16" class="btn btn-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Comprar</button>
               </div>
            </div>
            <div class="cajaPromo">
@@ -113,7 +113,7 @@
               <div class="lirio"> 
                  <p class="nombres3">Pijama Lirio</p>
                  <p class="precios3">$2400 </p>
-                 <button id="boton17" class="btn btn-success" type="button">Comprar</button>
+                 <button id="boton17" class="btn btn-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Comprar</button>
               </div> 
            </div>
        </section>
@@ -123,10 +123,35 @@
               <div class="magnolia">
                  <p class="nombres3">Pijama Magnolia </p>
                  <p class="precios3">$2200 </p>
-                 <button id="boton18" class="btn btn-success" type="button">Comprar</button>
+                 <button id="boton18" class="btn btn-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Comprar</button>
               </div>
           </div>
        </section>
+       <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+             <div class="modal-content">
+                <div class="modal-header">
+                   <h5 class="modal-title" id="staticBackdropLabel">Elegí un talle</h5>
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                   </button>
+                </div>
+                <div class="modal-body">
+                   <div class="form-group">
+                      <select class="form-control" id="exampleFormControlSelect1">
+                         <option>S</option>
+                         <option>M</option>
+                         <option>L</option>
+                      </select>
+                   </div>
+                </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                   <button id="botonTalle3" type="button" class="btn btn-primary">Comprar</button>
+                </div>
+             </div>
+          </div>
+       </div>
        <footer>
           <br>
           <div id="cajaFooter">

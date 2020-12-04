@@ -172,7 +172,8 @@ nav {
 
 footer {
   background-color: #835858;
-  margin-top: 90px; }
+  margin-top: 90px;
+  padding-bottom: 20px; }
 
 #cajaFooter {
   display: flex;
@@ -345,6 +346,10 @@ footer {
       background-color: #89beb3;
       border-color: #89beb3; }
 
+#botonTalle {
+  background-color: #89beb3;
+  border-color: #89beb3; }
+
 .talles {
   text-align: center; }
   .talles #duda {
@@ -424,6 +429,10 @@ footer {
     .pijamas2 .jacinto #boton12 {
       background-color: #835858;
       border-color: #835858; }
+
+#botonTalle2 {
+  background-color: #835858;
+  border-color: #835858; }
 
 /* Sale */
 .bombis {
@@ -539,6 +548,10 @@ footer {
     .promoPijamas2 .magnolia #boton18 {
       background-color: #625261;
       border-color: #625261; }
+
+#botonTalle3 {
+  background-color: #625261;
+  border-color: #625261; }
 
 /* Sucursales */
 .sucursales {
@@ -673,7 +686,7 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
-    padding: 0px;
+    padding: 20px;
     margin-left: 20px;
     justify-content: none;
     align-items: none; }

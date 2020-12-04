@@ -74,7 +74,7 @@
           <div class="orquidea">
              <p class="nombres1">Conjunto Orquídea</p>
              <p class="precios1">$990</p>
-             <button id="boton1" class="btn btn-success" type="button">Comprar</button>
+             <button id="boton1" class="btn btn-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Comprar</button>
           </div>
        </div>
        <div class="cajaConjuntos">
@@ -82,7 +82,7 @@
           <div class="amapola">
              <p class="nombres1">Conjunto Amapola</p> 
              <p class="precios1">$1100 </p>
-             <button id="boton2" class="btn btn-success" type="button">Comprar</button>
+             <button id="boton2" class="btn btn-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Comprar</button>
           </div>
        </div>
        <div class="cajaConjuntos">
@@ -90,7 +90,7 @@
           <div class="jazmin">
              <p class="nombres1">Conjunto Jazmín</p>
              <p class="precios1">$990</p>
-             <button id="boton3" class="btn btn-success" type="button">Comprar</button>
+             <button id="boton3" class="btn btn-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Comprar</button>
           </div>
        </div>
        <div class="cajaConjuntos">
@@ -98,7 +98,7 @@
           <div class="dalia">
              <p class="nombres1">Conjunto Dalia</p>
              <p class="precios1" >$890</p>
-             <button id="boton4" class="btn btn-success" type="button">Comprar</button>
+             <button id="boton4" class="btn btn-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Comprar</button>
           </div>
        </div>
       </section>
@@ -108,7 +108,7 @@
            <div class="hortensia">
               <p class="nombres1">Conjunto Hortensia</p>
               <p class="precios1">$890</p>
-              <button id="boton5" class="btn btn-success" type="button">Comprar</button>
+              <button id="boton5" class="btn btn-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Comprar</button>
            </div>
         </div>
         <div class="cajaConjuntos">
@@ -116,7 +116,7 @@
            <div class="iris">  
               <p class="nombres1">Conjunto Iris</p>
               <p class="precios1">$1100 </p>
-              <button id="boton6" class="btn btn-success" type="button">Comprar</button>
+              <button id="boton6" class="btn btn-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Comprar</button>
            </div> 
         </div>
         <div class="cajaConjuntos">
@@ -124,7 +124,7 @@
            <div class="girasol">
               <p class="nombres1">Conjunto Girasol</p>
               <p class="precios1">$990</p>
-              <button id="boton7" class="btn btn-success" type="button">Comprar</button>
+              <button id="boton7" class="btn btn-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Comprar</button>
            </div>
         </div>
         <div class="cajaConjuntos">
@@ -132,10 +132,35 @@
            <div class="narciso">
               <p class="nombres1">Conjunto Narciso</p>
               <p class="precios1" >$1300</p>
-              <button id="boton8"class="btn btn-success"  type="button">Comprar</button>
+              <button id="boton8"class="btn btn-success" type="button" data-toggle="modal" data-target="#staticBackdrop">Comprar</button>
            </div>
         </div>
       </section>
+      <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+         <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="staticBackdropLabel">Elegí un talle</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+               </button>
+             </div>
+             <div class="modal-body">
+                <div class="form-group">
+                   <select class="form-control" id="exampleFormControlSelect1">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                   </select>
+                </div>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+               <button id="botonTalle" type="button" class="btn btn-primary">Comprar</button>
+             </div>
+           </div>
+         </div>
+       </div>
       <section class="talles">
        <h2 id="duda">¿Tenés alguna duda sobre los talles?</h2>
        <h3 id="tablaTalles">Tabla de talles</h3>
