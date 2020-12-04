@@ -142,6 +142,10 @@ nav {
     border-color: #89beb3;
     width: 70px;
     margin: none; }
+    .cajaCarrito #botonCarrito:hover {
+      background-color: transparent;
+      border-color: #89beb3;
+      transform: scale(1.1, 1); }
 
 #barra {
   margin-left: 100px;
@@ -151,6 +155,9 @@ nav {
   transform: translate(-70px, -90px);
   color: #89beb3;
   border-color: #89beb3; }
+  #botonBarra:hover {
+    background-color: transparent;
+    border-color: #89beb3; }
 
 .titulos {
   font-family: 'Caveat', cursive;
